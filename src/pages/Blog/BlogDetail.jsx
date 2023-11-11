@@ -87,7 +87,7 @@ const BlogDetail = ({ blogData }) => {
       <img
         src={bigImage.src}
         alt='Big Blog Image'
-        className='w-full h-auto rounded-md mb-8 p-2'
+        className='w-full h-auto rounded-md mb-8 p-8'
       />
 
       <div
@@ -101,6 +101,7 @@ const BlogDetail = ({ blogData }) => {
             style={{
               fontFamily: "'Mukta', sans-serif",
               wordBreak: 'break-word',
+              padding: '0 15%',
             }}
           >
             {paragraph}
@@ -131,12 +132,17 @@ const BlogDetail = ({ blogData }) => {
         src={secondImage.src}
         alt='Second Blog Image'
         className='w-full h-auto rounded-md mb-8 p-2'
-        style={{ width: '100%' }}
+        style={{ width: '80%', margin: 'auto' }}
       />
 
       <div
         className='text-lg mb-6'
-        style={{ padding: '0 5%', lineHeight: '1.6' }}
+        style={{
+          padding: '0 15%',
+          lineHeight: '1.6',
+          margin: 'auto',
+          marginTop: '10px',
+        }}
       >
         {secondBigDescription.map((paragraph, index) => (
           <div
@@ -145,6 +151,7 @@ const BlogDetail = ({ blogData }) => {
             style={{
               fontFamily: "'Mukta', sans-serif",
               wordBreak: 'break-word',
+              padding: '0 5%',
             }}
           >
             {paragraph}
@@ -154,14 +161,19 @@ const BlogDetail = ({ blogData }) => {
 
       <h2
         className='text-2xl font-bold mb-4'
-        style={{ padding: '0 5%', lineHeight: '1.6' }}
+        style={{
+          padding: '0 15%',
+          lineHeight: '1.6',
+          textAlign: 'left',
+          marginLeft: '4%',
+        }}
       >
         {secondHeading}
       </h2>
 
       <div
         className='text-lg mb-6'
-        style={{ padding: '0 5%', lineHeight: '1.6' }}
+        style={{ padding: '0 15%', lineHeight: '1.6' }}
       >
         {secondDescription.map((paragraph, index) => (
           <div
@@ -170,6 +182,7 @@ const BlogDetail = ({ blogData }) => {
             style={{
               fontFamily: "'Mukta', sans-serif",
               wordBreak: 'break-word',
+              padding: '0 5%',
             }}
           >
             {paragraph}

@@ -221,7 +221,7 @@ const Service = () => {
               src={hiring}
               alt='Image Description'
               className='hidden md:block w-auto h-auto mx-auto'
-              style={{ marginLeft: '100%' }}
+              style={{ marginLeft: '10%' }}
             />
           </div>
         </div>

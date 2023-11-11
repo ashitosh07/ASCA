@@ -78,7 +78,7 @@ function BlogCard() {
           />
         </div>
 
-        <div className='flex flex-wrap justify-center gap-16 mb-16 m-10'>
+        <div className='flex flex-wrap justify-center gap-8 mb-20 m-10'>
           {displayedData.map((data, index) => (
             <Link to={`/blog/${data.id}`} key={data.id}>
               <div
@@ -99,10 +99,10 @@ function BlogCard() {
                 </button>
 
                 <div className='text-gray-500 mb-2'>{data.name}</div>
-                <div className='text-white font-semibold text-2xl mb-2'>
+                <div className='text-white font-semibold text-1xl mb-2'>
                   {data.title}
                 </div>
-                <p className='text-gray-400 leading-relaxed'>
+                <p className='text-gray-400 ' style={{ fontSize: '12px' }}>
                   {data.description}
                 </p>
               </div>

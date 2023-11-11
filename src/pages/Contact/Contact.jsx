@@ -152,7 +152,7 @@ const Contact = () => {
             style={{
               color: '#B3B3B3',
               marginBottom: '40px',
-              marginRight: '20%',
+              marginRight: '10%',
             }}
           >
             Lorem Ipsum has been the industry's standard dummy text ever since

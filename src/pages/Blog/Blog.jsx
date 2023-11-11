@@ -69,7 +69,7 @@ const Blog = () => {
           {blogData.map((item, index) => (
             <div
               key={index}
-              className='flex flex-col sm:flex-row my-4 mx-auto w-full sm:w-[500px] cursor-pointer'
+              className='flex flex-col sm:flex-row my-4 mx-auto w-full sm:w-[400px] cursor-pointer'
             >
               <div className='w-full sm:w-2/5'>
                 <img
