@@ -4,7 +4,6 @@ import { FaDownload } from 'react-icons/fa'
 import { RiFolderInfoFill } from 'react-icons/ri'
 import TypeAnimation from 'react-type-animation'
 import { motion } from 'framer-motion'
-import Lottie from 'react-lottie'
 
 import '../shared/Shared.css'
 import speedmeter from '../../assets/speedmeter.png'
