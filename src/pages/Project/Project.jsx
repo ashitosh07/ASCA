@@ -101,39 +101,111 @@ const Project = () => {
           style={{
             padding: '20px 0',
             textAlign: 'center',
-            borderRadius: '50%',
+            borderRadius: '10px',
+            marginBottom: '10px',
           }}
         >
           <h4
             style={{
               color: '#000000',
-              marginBottom: '20px',
               fontSize: '30px',
               fontWeight: '500',
+              marginBottom: '20px',
             }}
           >
             Clients
           </h4>
-          <div
-            className='logo-container'
+          <p
             style={{
-              display: 'flex',
-              justifyContent: 'center',
-              flexWrap: 'wrap',
+              color: '#6b6565',
+              fontSize: '15px',
+
+              marginBottom: '20px',
             }}
           >
-            {clientImages.map((image, index) => (
-              <img
-                key={index}
-                src={image}
-                alt={`Client Logo ${index + 1}`}
-                style={{
-                  width: '150px',
-                  height: '50px',
-                  marginBottom: '20px',
-                }}
-              />
-            ))}
+            They Trust Us. You Will Too.
+          </p>
+          <div className='flex flex-wrap items-center justify-center'>
+            <div className='flex flex-col items-center'>
+              <div className='flex '>
+                <div className='rounded-full w-full md:w-48 h-48  flex items-center justify-center'>
+                  <img
+                    src={client1}
+                    alt='Client Logo 1'
+                    className='w-full h-auto'
+                  />
+                </div>
+                <div className='rounded-full w-full md:w-48 h-48 flex items-center justify-center mt-4 md:mt-0'>
+                  <img
+                    src={client2}
+                    alt='Client Logo 2'
+                    className='w-full h-auto'
+                  />
+                </div>
+                <div className='rounded-full w-full md:w-48 h-48 flex items-center justify-center mt-4 md:mt-0'>
+                  <img
+                    src={client3}
+                    alt='Client Logo 3'
+                    className='w-full h-auto'
+                  />
+                </div>
+              </div>
+              <div className='flex '>
+                <div className='rounded-full w-full md:w-48 h-48 flex items-center justify-center mt-4'>
+                  <img
+                    src={client4}
+                    alt='Client Logo 4'
+                    className='w-full h-auto'
+                  />
+                </div>
+                <div className='rounded-full w-full md:w-48 h-48 flex items-center justify-center mt-4 md:mt-0'>
+                  <img
+                    src={client2}
+                    alt='Client Logo 5'
+                    className='w-full h-auto'
+                  />
+                </div>
+                <div className='rounded-full w-full md:w-48 h-48 flex items-center justify-center mt-4 md:mt-0'>
+                  <img
+                    src={client1}
+                    alt='Client Logo 6'
+                    className='w-full h-auto'
+                  />
+                </div>
+                <div className='rounded-full w-full md:w-48 h-48 flex items-center justify-center mt-4 md:mt-0'>
+                  <img
+                    src={client4}
+                    alt='Client Logo 7'
+                    className='w-full h-auto'
+                  />
+                </div>
+              </div>
+              <div className='flex '>
+                <div className='rounded-full w-full md:w-48 h-48 flex items-center justify-center mt-4'>
+                  <img
+                    src={client1}
+                    alt='Client Logo 8'
+                    className='w-full h-auto'
+                  />
+                </div>
+                <div className='rounded-full w-full md:w-48 h-48 flex items-center justify-center mt-4 md:mt-0'>
+                  <img
+                    src={client3}
+                    alt='Client Logo 9'
+                    className='w-full h-auto'
+                  />
+                </div>
+              </div>
+              <div className='flex '>
+                <div className='rounded-full w-full md:w-48 h-48 flex items-center justify-center mt-4'>
+                  <img
+                    src={client2}
+                    alt='Client Logo 10'
+                    className='w-full h-auto'
+                  />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

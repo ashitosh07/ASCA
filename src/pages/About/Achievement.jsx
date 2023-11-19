@@ -52,19 +52,18 @@ function Achievement() {
             transition={{ duration: 1 }}
           >
             <h1
-              className='text-3xl lg:text-5xl font-semibold mb-0'
+              className='text-3xl lg:text-5xl font-semibold mb-0 lg:mb-2'
               style={{ fontSize: '4vw', fontFamily: 'Lexend' }}
             >
               Accurate financials.
             </h1>
             <br />
             <h1
-              className='text-3xl lg:text-5xl font-semibold mb-0'
+              className='text-3xl lg:text-5xl font-semibold mb-0 lg:mb-2'
               style={{ fontSize: '4vw', fontFamily: 'Lexend' }}
             >
               Total peace
             </h1>
-
             <br />
             <p className='text-neutral max-w-xl mb-6 font-medium'>
               Lorem Ipsum has been the industry's standard dummy text ever since
@@ -83,7 +82,8 @@ function Achievement() {
             <img
               src={speedmeter}
               alt='Decorative'
-              style={{ marginLeft: '40%' }}
+              className='mx-auto lg:ml-0' // Center the image on small screens and move to the left on large screens
+              style={{ maxWidth: '80%', height: 'auto' }} // Adjust the maximum width of the image
             />
           </motion.div>
         </div>
@@ -100,16 +100,9 @@ function Achievement() {
           animate={{ y: 0 }}
           transition={{ duration: 1 }}
         >
-          <div
-            style={{
-              display: 'flex',
-              flexDirection: 'column',
-              alignItems: 'center',
-              justifyContent: 'center',
-            }}
-          >
+          <div className='flex flex-col items-center justify-center'>
             <h1
-              className='text-3xl lg:text-5xl font-semibold mb-0'
+              className='text-3xl lg:text-5xl font-semibold mb-2 lg:mb-4'
               style={{ fontSize: '3vw' }}
             >
               What you get with Bench
@@ -130,7 +123,11 @@ function Achievement() {
             animate={{ x: 0 }}
             transition={{ duration: 1 }}
           >
-            <img src={price} alt='Decorative' className='w-full lg:w-3/4' />
+            <img
+              src={price}
+              alt='Decorative'
+              className='w-full lg:w-3/4 h-auto mx-auto'
+            />
           </motion.div>
         </div>
         <div className='w-full lg:w-1/2 p-4'>
@@ -139,22 +136,15 @@ function Achievement() {
             animate={{ x: 0 }}
             transition={{ duration: 1 }}
           >
-            <h1
-              className='text-2xl lg:text-5xl font-semibold mb-0'
-              style={{ fontSize: '2vw', fontFamily: 'Lexend' }}
-            >
+            <h1 className='text-2xl lg:text-5xl font-semibold mb-2 lg:mb-4 sm:text-3xl md:text-4xl'>
               Simply dummy text of
             </h1>
             <br />
-            <h1
-              className='text-2xl lg:text-5xl font-semibold mb-0'
-              style={{ fontSize: '2vw', fontFamily: 'Lexend' }}
-            >
+            <h1 className='text-2xl lg:text-5xl font-semibold mb-2 lg:mb-4 sm:text-3xl md:text-4xl'>
               the printing and
             </h1>
-
             <br />
-            <p className='text-neutral max-w-xl mb-6 font-medium'>
+            <p className='text-neutral max-w-xl mb-6 font-medium text-sm sm:text-base md:text-base lg:text-base xl:text-base'>
               Lorem Ipsum has been the industry's standard dummy text ever since
               the 1500s, when an unknown printer took a galley of type and
               scrambled
@@ -170,22 +160,15 @@ function Achievement() {
             animate={{ x: 0 }}
             transition={{ duration: 1 }}
           >
-            <h1
-              className='text-2xl lg:text-5xl font-semibold mb-0'
-              style={{ fontSize: '2vw', fontFamily: 'Lexend' }}
-            >
+            <h1 className='text-2xl lg:text-5xl font-semibold mb-2 lg:mb-4 sm:text-3xl md:text-4xl'>
               Simply dummy text of
             </h1>
             <br />
-            <h1
-              className='text-2xl lg:text-5xl font-semibold mb-0'
-              style={{ fontSize: '2vw', fontFamily: 'Lexend' }}
-            >
+            <h1 className='text-2xl lg:text-5xl font-semibold mb-2 lg:mb-4 sm:text-3xl md:text-4xl'>
               the printing and
             </h1>
-
             <br />
-            <p className='text-neutral max-w-xl mb-6 font-medium'>
+            <p className='text-neutral max-w-xl mb-6 font-medium text-sm sm:text-base md:text-base lg:text-base xl:text-base'>
               Lorem Ipsum has been the industry's standard dummy text ever since
               the 1500s, when an unknown printer took a galley of type and
               scrambled
@@ -201,12 +184,13 @@ function Achievement() {
             <img
               src={price}
               alt='Decorative'
-              className='w-full lg:w-3/4'
-              style={{ marginLeft: '20px' }}
+              className='w-full lg:w-3/4 mx-auto lg:mx-0'
+              style={{ maxWidth: '100%', height: 'auto' }}
             />
           </motion.div>
         </div>
       </div>
+
       <div className='parent min-h-[70vh] lg:flex lg:flex-row items-center justify-around flex-col'>
         <div className='w-full lg:w-1/2 p-2'>
           <motion.div
@@ -214,7 +198,11 @@ function Achievement() {
             animate={{ x: 0 }}
             transition={{ duration: 1 }}
           >
-            <img src={price} alt='Decorative' className='w-full lg:w-3/4' />
+            <img
+              src={price}
+              alt='Decorative'
+              className='w-full lg:w-3/4 h-auto mx-auto'
+            />
           </motion.div>
         </div>
         <div className='w-full lg:w-1/2 p-4'>
@@ -223,22 +211,15 @@ function Achievement() {
             animate={{ x: 0 }}
             transition={{ duration: 1 }}
           >
-            <h1
-              className='text-2xl lg:text-5xl font-semibold mb-0'
-              style={{ fontSize: '2vw', fontFamily: 'Lexend' }}
-            >
+            <h1 className='text-2xl lg:text-5xl font-semibold mb-2 lg:mb-4 sm:text-3xl md:text-4xl'>
               Simply dummy text of
             </h1>
             <br />
-            <h1
-              className='text-2xl lg:text-5xl font-semibold mb-0'
-              style={{ fontSize: '2vw', fontFamily: 'Lexend' }}
-            >
+            <h1 className='text-2xl lg:text-5xl font-semibold mb-2 lg:mb-4 sm:text-3xl md:text-4xl'>
               the printing and
             </h1>
-
             <br />
-            <p className='text-neutral max-w-xl mb-6 font-medium'>
+            <p className='text-neutral max-w-xl mb-6 font-medium text-sm sm:text-base md:text-base lg:text-base xl:text-base'>
               Lorem Ipsum has been the industry's standard dummy text ever since
               the 1500s, when an unknown printer took a galley of type and
               scrambled
@@ -246,6 +227,7 @@ function Achievement() {
           </motion.div>
         </div>
       </div>
+
       <div className='parent min-h-[70vh] lg:flex lg:flex-row items-center justify-around flex-col'>
         <div className='w-full lg:w-1/2 p-4'>
           <motion.div
@@ -253,22 +235,15 @@ function Achievement() {
             animate={{ x: 0 }}
             transition={{ duration: 1 }}
           >
-            <h1
-              className='text-2xl lg:text-5xl font-semibold mb-0'
-              style={{ fontSize: '2vw', fontFamily: 'Lexend' }}
-            >
+            <h1 className='text-2xl lg:text-5xl font-semibold mb-2 lg:mb-4 sm:text-3xl md:text-4xl'>
               Simply dummy text of
             </h1>
             <br />
-            <h1
-              className='text-2xl lg:text-5xl font-semibold mb-0'
-              style={{ fontSize: '2vw', fontFamily: 'Lexend' }}
-            >
+            <h1 className='text-2xl lg:text-5xl font-semibold mb-2 lg:mb-4 sm:text-3xl md:text-4xl'>
               the printing and
             </h1>
-
             <br />
-            <p className='text-neutral max-w-xl mb-6 font-medium'>
+            <p className='text-neutral max-w-xl mb-6 font-medium text-sm sm:text-base md:text-base lg:text-base xl:text-base'>
               Lorem Ipsum has been the industry's standard dummy text ever since
               the 1500s, when an unknown printer took a galley of type and
               scrambled
@@ -284,12 +259,13 @@ function Achievement() {
             <img
               src={price}
               alt='Decorative'
-              className='w-full lg:w-3/4'
-              style={{ marginLeft: '20px' }}
+              className='w-full lg:w-3/4 mx-auto lg:mx-0'
+              style={{ maxWidth: '100%', height: 'auto' }}
             />
           </motion.div>
         </div>
       </div>
+
       <div
         style={{
           backgroundColor: 'white',

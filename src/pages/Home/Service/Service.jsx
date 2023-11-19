@@ -236,30 +236,29 @@ const Service = () => {
           {cardData.map((data, index) => (
             <div
               key={index}
-              className='card flex bg-gray-700 p-4 mx-2'
+              className='card bg-gray-700 p-4 mx-2 mb-4 sm:mx-0   sm:w-full lg:w-3/4'
               style={{
                 minHeight: '150px',
                 padding: '2rem',
                 backgroundColor: '#0E1013',
+                minWidth: '400px',
               }}
             >
-              <div className='w-full lg:w-3/4'>
+              <div>
                 <h2 className='text-white text-lg mb-2'>{data.title}</h2>
                 <p
-                  className='text-left break-words'
-                  style={{ color: '#B3B3B3', marginRight: '20%' }}
+                  className='text-left break-words text-sm lg:text-base'
+                  style={{ color: '#B3B3B3' }}
                 >
                   {data.description}
                 </p>
               </div>
-              <div className='absolute top-4 right-4 mt-4 mr-4 '>
+              <div className='mt-4'>
                 <div
                   className='flex items-center text-sm'
                   style={{ color: '#8dce19' }}
                 >
                   <span style={{ fontSize: '12px', marginRight: '10px' }}>
-                    {' '}
-                    {/* Adjust font size for mobile */}
                     View Job
                   </span>
                   <BsFillArrowRightCircleFill className='icon' />

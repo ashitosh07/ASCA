@@ -26,6 +26,7 @@
     "react": "^18.2.0",
     "react-copy-to-clipboard": "^5.1.0",
     "react-dom": "^18.2.0",
+    "react-fancy-circular-carousel": "^1.0.8",
     "react-icons": "^4.11.0",
     "react-intersection-observer": "^9.2.2",
     "react-lazy-load-image-component": "^1.5.5",
