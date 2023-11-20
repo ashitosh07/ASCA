@@ -172,7 +172,7 @@ function Tabs() {
                         width: '350px',
                         height: '130px',
                         margin: '10px',
-                        marginRight: '24px',
+                        // marginRight: '4px',
                         padding: '15px',
                         borderRadius: '10px',
                         backgroundColor: '#181818',
