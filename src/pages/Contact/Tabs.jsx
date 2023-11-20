@@ -169,7 +169,7 @@ function Tabs() {
                       style={{
                         display: 'flex',
                         alignItems: 'center',
-                        width: '350px',
+                        width: '340px',
                         height: '130px',
                         margin: '10px',
                         // marginRight: '4px',
