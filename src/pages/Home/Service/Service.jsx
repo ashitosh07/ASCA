@@ -248,8 +248,9 @@ const Service = () => {
               style={{
                 minHeight: '150px',
                 padding: '2rem',
+                margin: '0 auto',
                 backgroundColor: '#0E1013',
-                minWidth: '400px',
+                minWidth: '380px',
               }}
             >
               <div>
