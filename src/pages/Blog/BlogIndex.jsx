@@ -24,7 +24,7 @@ const BlogIndex = () => {
             Help me
           </button>
         </p>
-        {/* <div className='border-t border-gray-300 mt-14 mb-14'></div>
+        <div className='border-t border-gray-300 mt-14 mb-14'></div>
         <div
           className='flex flex-col items-center justify-center'
           style={{ maxWidth: '37rem' }}
@@ -33,7 +33,7 @@ const BlogIndex = () => {
             className='text-3xl mt-8 mb-8'
             style={{ fontFamily: 'lexend', fontSize: '29px' }}
           >
-            Lorem Ipsum has been the industry's standard dummy
+            Newsletter space
           </h1>
         </div>
         <div className='flex flex-col md:flex-row justify-center items-center mt-2 mb-4'>
@@ -129,9 +129,9 @@ const BlogIndex = () => {
               fontWeight: '500',
             }}
           >
-            Upload
+            Subscribe
           </button>
-        </div> */}
+        </div>
       </div>
     </>
   )

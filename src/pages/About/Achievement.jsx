@@ -301,20 +301,25 @@ function Achievement() {
               className='text-4xl font-semibold mb-0'
               style={{ color: '#060505' }}
             >
-              Interactive club interface
+              User Dashboard: Upload and Task Progress
             </h3>
 
             <p
               className='text-neutral max-w-xl mb-6 font-medium'
               style={{ color: '#000000', margin: '5% 0' }}
             >
-              Lorem Ipsum has been the industry's standard dummy text ever since
-              the 1500s, when an unknown printer took a galley of type and
-              scrambled it to make a type specimen book. It has survived not
-              only five centuries, but also the leap into electronic
-              typesetting, remaining essentially unchanged. It was popularized
-              in the 1960s with the release of Letraset sheets containing Lorem
-              Ipsum passages, and more recently with desktop publishing so
+              Access the full potential of our user dashboard, where clients can
+              effortlessly upload documents and monitor task progress in
+              real-time. Our secure document upload feature ensures the
+              confidentiality of your information, with support for various file
+              formats. The intuitive interface guarantees a user-friendly
+              experience, allowing you to seamlessly navigate through the system
+              and receive immediate updates on task progress. With robust
+              security measures, including encryption and secure connections,
+              your data is safeguarded at every step. Guidelines for optimal use
+              are provided to assist you in organizing and managing your
+              documents effectively. If you need assistance, our support team is
+              just a message away, ensuring a smooth and secure user experience.
             </p>
 
             <div className='lg:flex lg:flex-row flex-col items-center'>
@@ -325,10 +330,10 @@ function Achievement() {
                   borderRadius: '8px',
                   padding: '8px 20px',
                   color: '#000000',
-                  fontWeight: '500',
+                  fontWeight: '700',
                 }}
               >
-                <span>Guest Access</span>
+                <span>Sign in</span>
               </button>
 
               <button
@@ -340,7 +345,7 @@ function Achievement() {
                   fontWeight: '500',
                 }}
               >
-                <span>Account Access</span>
+                <span>Sign up</span>
               </button>
             </div>
           </motion.div>

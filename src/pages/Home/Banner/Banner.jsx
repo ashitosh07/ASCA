@@ -28,18 +28,37 @@ const Banner = () => {
 
           <br />
           <p className='text-neutral max-w-xl mb-6 font-medium'>
-            Lorem Ipsum has been the industry's standard dummy text ever since
-            the 1500s, when an unknown printer took a galley of type and
-            scrambled
+            Let's narrate yours. One-Stop Solution for Seamless Financial
+            Compliance.
           </p>
 
-          <div className='flex items-center'>
+          <div
+            className='flex items-center'
+            style={{ display: 'flex', flexDirection: 'row' }}
+          >
             <a href='' target='_blank'>
               <button className='primary-button'>
-                <span style={{ color: 'black', fontWeight: '700' }}>
-                  Sign in
+                <span
+                  style={{
+                    color: 'black',
+                    fontWeight: '600',
+                  }}
+                >
+                  Login
                 </span>
-              </button>
+              </button>{' '}
+            </a>{' '}
+            <a href='' target='_blank'>
+              <button className='primary-button' style={{ marginLeft: '25px' }}>
+                <span
+                  style={{
+                    color: 'black',
+                    fontWeight: '600',
+                  }}
+                >
+                  Book a Call
+                </span>
+              </button>{' '}
             </a>
           </div>
         </motion.div>

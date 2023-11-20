@@ -80,7 +80,7 @@ const Blog = () => {
               </div>
               <div className='w-full sm:w-3/5 pl-0 sm:pl-4'>
                 <p
-                  className='text-md sm:text-xl font-semibold text-primary mb-2'
+                  className='text-md sm:text-xl font-semibold text-#8dce19 mb-2'
                   style={{ color: '#000000', whiteSpace: 'pre-wrap' }}
                 >
                   {item.description}

@@ -58,21 +58,21 @@ const Footer = () => {
             }}
           >
             <a
-              className='flex items-center text-white hover:text-primary duration-300 mb-2 lg:mr-0 mr-4'
+              className='flex items-center text-white hover:text-#8dce19 duration-300 mb-2 lg:mr-0 mr-4'
               href='#'
               style={{ activeLink }}
             >
               About
             </a>
             <a
-              className='flex items-center text-white hover:text-primary duration-300 mb-2 mr-4 lg:mr-0'
+              className='flex items-center text-white hover:text-#8dce19 duration-300 mb-2 mr-4 lg:mr-0'
               href='#'
               style={{ activeLink }}
             >
               Contact
             </a>
             <a
-              className='flex items-center text-white hover:text-primary duration-300 mb-2 md:mb-0' // Apply flex-col for mobile
+              className='flex items-center text-white hover:text-#8dce19 duration-300 mb-2 md:mb-0' // Apply flex-col for mobile
               href='#'
               style={{ activeLink }}
             >
@@ -86,7 +86,7 @@ const Footer = () => {
               paddingLeft: '10%',
             }}
           >
-            <div className='w-50 flex items-center mb-4'>
+            {/* <div className='w-50 flex items-center mb-4'>
               <div className='relative flex items-center'>
                 <input
                   type='text'
@@ -119,7 +119,7 @@ const Footer = () => {
               >
                 Search
               </button>
-            </div>
+            </div> */}
 
             <div className='w-full flex items-start pt-4 pb-4'>
               <a

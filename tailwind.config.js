@@ -8,7 +8,12 @@ export default {
       },
     },
   },
-  plugins: [require('daisyui')],
+  plugins: [
+    require('postcss-nested'), // Add this line for nesting support
+    require('daisyui'),
+    require('tailwindcss'),
+  ],
+
   daisyui: {
     themes: [
       {

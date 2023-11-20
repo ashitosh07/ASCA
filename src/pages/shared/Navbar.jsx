@@ -14,6 +14,7 @@ import Drawer from 'react-modern-drawer'
 import 'react-modern-drawer/dist/index.css'
 import './Shared.css'
 import { SearchIcon } from '@heroicons/react/outline'
+import zoho from '../../assets/zoho.png'
 
 import PrimaryBtn from '../../components/PrimaryBtn'
 import img from '../../assets/headerLogo.png'
@@ -26,7 +27,11 @@ export default function Navbar() {
   const navLinks = [
     { title: 'Home', link: '/', icon: <FaHome /> },
     { title: 'About', link: '/about', icon: <RiFolderInfoFill /> },
-    { title: 'Contact', link: '/contact', icon: <RiContactsBook2Fill /> },
+    {
+      title: 'Contact Support',
+      link: '/contact',
+      icon: <RiContactsBook2Fill />,
+    },
     { title: 'Blog', link: '/blog', icon: <ImBlog /> },
     { title: 'Sign in', link: '/signin', icon: <FaDownload /> },
   ]
@@ -76,17 +81,18 @@ export default function Navbar() {
                 <NavLink
                   to={navItem.link}
                   style={activeLink}
-                  className='text-white hover:text-primary duration-300'
+                  className='text-white hover:text-#8dce19 duration-300'
                 >
                   {navItem.title}
                 </NavLink>
               </li>
             ))}
-            <li className='mx-4'>
-              <SearchIcon
-                className='h-6 w-6 text-white hover:text-primary duration-300'
+            <li className='mx-2'>
+              {/* <SearchIcon
+                className='h-6 w-6 text-white hover:text-#8dce19 duration-300'
                 style={{ color: '#8dce19' }}
-              />
+              /> */}
+              <img src={zoho} alt='zoho' style={{ width: '30px' }} />
             </li>
           </ul>
           <div className='block lg:hidden'>
@@ -103,7 +109,7 @@ export default function Navbar() {
               <ul className=''>
                 <li className='mt-6 mb-10 ml-4'>
                   <GiCrossMark
-                    className='cursor-pointer hover:text-primary duration-300'
+                    className='cursor-pointer hover:text-#8dce19 duration-300'
                     onClick={() => setIsOpen(!isOpen)}
                   ></GiCrossMark>
                 </li>
@@ -116,7 +122,7 @@ export default function Navbar() {
                     <NavLink
                       to={navItem.link}
                       style={activeLink}
-                      className='flex items-center text-white hover:text-primary duration-300'
+                      className='flex items-center text-white hover:text-#8dce19 duration-300'
                     >
                       <span className='mr-3'>{navItem.icon}</span>
                       <span>{navItem.title}</span>

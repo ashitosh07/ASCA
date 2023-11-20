@@ -30,8 +30,8 @@ const Service = () => {
     {
       id: 1,
       img: team1,
-      name: 'John Doe',
-      designation: 'Front-end Developer',
+      name: 'Anwesh Shetty',
+      designation: 'FCA, B. Com, LL.B, ACCA',
       linkedin: 'https://www.linkedin.com/johndoe',
       instagram: 'https://www.instagram.com/johndoe',
       facebook: 'https://www.facebook.com/johndoe',
@@ -39,8 +39,8 @@ const Service = () => {
     {
       id: 2,
       img: team2,
-      name: 'John',
-      designation: 'Full-stack Developer',
+      name: 'Frenil Douza',
+      designation: 'CA, B. Com, FAFD',
       linkedin: 'https://www.linkedin.com/janesmith',
       instagram: 'https://www.instagram.com/janesmith',
       facebook: 'https://www.facebook.com/janesmith',
@@ -48,8 +48,8 @@ const Service = () => {
     {
       id: 3,
       img: team3,
-      name: 'Alex',
-      designation: 'Web Designer',
+      name: 'Viresh Shetty',
+      designation: 'Senior Tax Manager',
       linkedin: 'https://www.linkedin.com/alicejohnson',
       instagram: 'https://www.instagram.com/alicejohnson',
       facebook: 'https://www.facebook.com/alicejohnson',
@@ -57,8 +57,8 @@ const Service = () => {
     {
       id: 4,
       img: team4,
-      name: 'Ram',
-      designation: 'Back-end Developer',
+      name: ' Adril Dsilva',
+      designation: 'Senior Audit Manager',
       linkedin: 'https://www.linkedin.com/bobwilson',
       instagram: 'https://www.instagram.com/bobwilson',
       facebook: 'https://www.facebook.com/bobwilson',
@@ -67,30 +67,30 @@ const Service = () => {
 
   const cardData = [
     {
-      title: 'Simply dummy text of the ',
+      title: 'Registration Service',
       description:
-        'Simply dummy text of the printing and typesetting industry. is simply ',
+        'Sole Proprietorship Firm Registration\n Partnership Firm Registration\n Limited Liability Partnership (LLP)\n Private Limited Company Registration\n One Person Company (OPC) Registration\n NGO Registration\n Trust Registration\n GST Registration\n Startup India Registration\n Import Export Code (IEC)\n PF ESI Registration\n Income Tax Exemption (80G, 12A) Registration',
     },
     {
-      title: 'Simply dummy text of the ',
+      title: 'Compliance Service',
       description:
-        'Simply dummy text of the printing and typesetting industry. is simply ',
+        ' Income Tax Return Filing \n GST Return Filing \n Tax & Statutory Compliance Review \n Domestic and International Transfer Pricing \n Direct and Indirect Taxation Advisory \n International Taxation Advisory \n Tax Due Diligence \n Cross-Border Transaction Advisory \n Regulatory Support under FEMA, and RBI Guidelines \n Disclosure of Foreign Assets ',
     },
     {
-      title: 'Simply dummy text of the ',
+      title: 'Legal Service',
       description:
-        'Simply dummy text of the printing and typesetting industry. is simply ',
+        ' GST Litigation Support \n Income Tax Litigation Support \n Insolvency and Debt Resolution \n Arbitration ',
     },
     {
-      title: 'Simply dummy text of the ',
+      title: 'Audit Service',
       description:
-        'Simply dummy text of the printing and typesetting industry. is simply ',
+        ' Statutory Audit under Indian and International GAAP \n Internal Audit \n Tax Audit \n Systems Audit \n Management Audit \n Agreed Upon Procedures \n Certification Services \n Investigation and Special Audits ',
     },
   ]
   return (
     <>
       <div className='parent py-10'>
-        {/* <motion.div
+        <motion.div
           className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6'
           ref={ref}
           initial='hidden'
@@ -99,17 +99,17 @@ const Service = () => {
           style={{ marginBottom: '80px' }}
         >
           {[
-            { text: 'Lorem Ipsum has ', count: '500+' },
-            { text: 'Lorem Ipsum has ', count: '250+' },
-            { text: 'Lorem Ipsum has ', count: '519+' },
-            { text: 'Lorem Ipsum has ', count: '400+' },
+            { text: 'Response Time', count: '< 1 Hour' },
+            { text: 'Resolution Time', count: '< 1 Day' },
+            { text: 'Client Retention Rate', count: '>95%' },
+            { text: 'Compliance Rate', count: '100%' },
           ].map((item, index) => (
             <div key={index} className='text-center'>
               <h2 className='text-2xl font-semibold mb-1'>{item.count}</h2>
               <p className='text-neutral mb-2'>{item.text}</p>
             </div>
           ))}
-        </motion.div> */}
+        </motion.div>
 
         <motion.div
           className='mb-12 mt-16'
@@ -196,20 +196,28 @@ const Service = () => {
             variants={headingAnimation}
           >
             <button
-              className='bg-green-500 text-black px-3 py-1 rounded-lg text-sm mb-2'
-              style={{ backgroundColor: '#8dce19', borderRadius: '40px' }}
+              className='bg-green-500 text-black px-3 py-3 rounded-lg text-sm mb-2'
+              style={{
+                backgroundColor: '#8dce19',
+                borderRadius: '40px',
+                fontSize: '20px',
+                visibility: 'hidden',
+              }}
             >
-              WE ARE HIRING
+              SERVICES
             </button>
             <h1
-              className='text-4xl font-semibold'
+              className='text-4xl font-semibold md:pr-30'
               style={{ marginTop: '20px', marginRight: '10%' }}
             >
-              Join our team
+              Services
             </h1>
             <p
-              className='mt-5 text-grey-500 pr-0 md:pr-30'
-              style={{ marginTop: '20px', marginRight: '20%' }}
+              className=' text-grey-500  md:pr-30'
+              style={{
+                marginRight: '20%',
+                visibility: 'hidden',
+              }}
             >
               is simply dummy text of the printing and typesetting industry. is
               simply dummy text of the printing and typesetting industry.
@@ -236,6 +244,44 @@ const Service = () => {
           {cardData.map((data, index) => (
             <div
               key={index}
+              className='card bg-gray-700 p-4 mx-2 mb-4 sm:mx-0 sm:w-full lg:w-3/4'
+              style={{
+                minHeight: '150px',
+                padding: '2rem',
+                backgroundColor: '#0E1013',
+                minWidth: '400px',
+              }}
+            >
+              <div>
+                <h2 className='text-white text-lg mb-2'>{data.title}</h2>
+                <ul
+                  className='text-left text-sm lg:text-base list-disc pl-4'
+                  style={{ color: '#B3B3B3' }}
+                >
+                  {data.description.split('\n').map((point, pointIndex) => (
+                    <li key={pointIndex} className='break-words'>
+                      {point}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <div className='mt-4'>
+                <div
+                  className='flex items-center text-sm'
+                  style={{ color: '#8dce19' }}
+                >
+                  <span style={{ fontSize: '12px', marginRight: '10px' }}>
+                    View More
+                  </span>
+                  <BsFillArrowRightCircleFill className='icon' />
+                </div>
+              </div>
+            </div>
+          ))}
+
+          {/* {cardData.map((data, index) => (
+            <div
+              key={index}
               className='card bg-gray-700 p-4 mx-2 mb-4 sm:mx-0   sm:w-full lg:w-3/4'
               style={{
                 minHeight: '150px',
@@ -259,13 +305,13 @@ const Service = () => {
                   style={{ color: '#8dce19' }}
                 >
                   <span style={{ fontSize: '12px', marginRight: '10px' }}>
-                    View Job
+                    View More
                   </span>
                   <BsFillArrowRightCircleFill className='icon' />
                 </div>
               </div>
             </div>
-          ))}
+          ))} */}
         </motion.div>
       </div>
     </>

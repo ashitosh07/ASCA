@@ -44,7 +44,6 @@
   &:hover {
     color: #333; /* Text color on hover */
     text-decoration: underline #8dce19; /* Underline with a green color */
-    text-decoration-skip-ink: auto;
   }
 
   &.active-tab {

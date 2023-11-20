@@ -161,18 +161,36 @@ const Contact = () => {
             five centuries, but also the leap into electronic typesetting,
             remaining essentially unchanged. It was
           </p>
-          <button
-            style={{
-              backgroundColor: '#8dce19',
-              borderRadius: '14px',
-              width: '150px',
-              padding: '6px 14px',
-              color: '#000000',
-              fontWeight: '600',
-            }}
+
+          <div
+            className='flex items-center'
+            style={{ display: 'flex', flexDirection: 'row' }}
           >
-            Schedule Call
-          </button>
+            <a href='' target='_blank'>
+              <button className='primary-button'>
+                <span
+                  style={{
+                    color: 'black',
+                    fontWeight: '600',
+                  }}
+                >
+                  Login
+                </span>
+              </button>{' '}
+            </a>{' '}
+            <a href='' target='_blank'>
+              <button className='primary-button' style={{ marginLeft: '25px' }}>
+                <span
+                  style={{
+                    color: 'black',
+                    fontWeight: '600',
+                  }}
+                >
+                  Book a Call
+                </span>
+              </button>{' '}
+            </a>
+          </div>
         </motion.div>
       </div>
     </div>

@@ -38,23 +38,43 @@ const About = () => {
             </h1>
             <div className='centered-container'>
               <p className='text-neutral font-medium'>
-                Lorem Ipsum has been the industry's standard dummy text ever
-                since the 1500s, when an unknown printer took a galley of type
-                and scrambled it to make a type specimen book. It has survived
-                not only five centuries but also the leap into electronic
-                typesetting, remaining essentially unchanged. It was popularized
-                in the 1960s with the release of Letraset sheets containing
-                Lorem Ipsum passages and more recently with desktop publishing
-                so
+                Founded in 2018 by CA Anwesh Shetty, our firm stands at the
+                forefront of financial compliance and client education,
+                distinguished by our ISO certification and a commitment to
+                clarity and understanding. As a full-service firm, we offer an
+                extensive array of services including tax consulting, tax
+                filing, audit services, business advisory, and litigation
+                support.
               </p>
               <br />
               <p className='text-neutral font-medium'>
-                Software like Aldus PageMaker, including versions of Lorem
-                Ipsum. Lorem Ipsum has been the industry's standard dummy text
-                ever since the 1500s, when an unknown printer took a galley of
-                type and scrambled it to make a type specimen book. It has
-                survived not only five centuries but also the leap into
-                electronic typesetting, remaining essentially
+                We specialize in catering to the unique needs of small and
+                medium-sized businesses, providing them with tailored solutions
+                that demystify the complexities of financial compliance. At the
+                heart of our approach are our core values: a relentless pursuit
+                of knowledge in an ever-evolving landscape, an unwavering focus
+                on client education, simplification of complex matters, and a
+                steadfast commitment to transparency. Our technologically
+                advanced operations reflect our belief in the power of modern
+                solutions to enhance efficiency and accuracy
+              </p>
+              <br />
+              <p className='text-neutral font-medium'>
+                Our dynamic team comprises young professionals, including
+                Chartered Accountants, Company Secretaries, and Lawyers, all
+                dedicated to offering end-to-end compliance solutions. We pride
+                ourselves on our automated work environment that upholds the
+                highest standards of integrity and client confidentiality.
+                Responsiveness and attentiveness to client queries are the
+                hallmarks of our service, ensuring that every client receives
+                the attention and expertise they deserve.
+              </p>
+              <br />
+              <p className='text-neutral font-medium'>
+                In navigating the intricate world of financial regulations, we
+                are more than just your consultants; we are your trusted
+                partners in telling the story of your financial journey with
+                clarity and confidence.
               </p>
             </div>
           </motion.div>
@@ -81,7 +101,7 @@ const About = () => {
                     className='mx-auto mb-2'
                   />
                   <h2
-                    className='badge-title text-primary font-semibold'
+                    className='badge-title text-#8dce19 font-semibold'
                     style={{ color: 'black', fontFamily: 'lexend' }}
                   >
                     {badge.title}
