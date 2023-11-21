@@ -33,6 +33,7 @@
   margin-bottom: 20px;
 }
 
+/* Styles for the .tab class */
 .tab {
   cursor: pointer;
   padding: 10px;
@@ -40,16 +41,19 @@
   border-radius: 5px;
   color: #fff !important; /* Ensure text color is white */
   transition: background-color 0.3s ease;
-
-  &:hover {
-    color: #333; /* Text color on hover */
-    text-decoration: underline #8dce19; /* Underline with a green color */
-  }
-
-  &.active-tab {
-    color: #fff; /* Ensure text color is white */
-  }
 }
+
+/* Styles for the .tab class on hover */
+.tab:hover {
+  color: #333; /* Text color on hover */
+  text-decoration: underline #8dce19; /* Underline with a green color */
+}
+
+/* Styles for the .tab class when it has the active-tab class */
+.tab.active-tab {
+  color: #fff; /* Ensure text color is white */
+}
+
 .selected-card-details {
   background-color: #181818;
   color: #fff;
