@@ -14,14 +14,14 @@ const Banner = () => {
         >
           <h1
             className='text-4xl font-semibold mb-0'
-            style={{ fontSize: '52px', fontFamily: 'Lexend' }}
+            style={{ fontSize: '52px' }}
           >
             Storytelling{' '}
           </h1>
           <br />
           <h1
             className='text-4xl font-semibold mb-0'
-            style={{ fontSize: '52px', fontFamily: 'Lexend' }}
+            style={{ fontSize: '52px' }}
           >
             with numbers
           </h1>

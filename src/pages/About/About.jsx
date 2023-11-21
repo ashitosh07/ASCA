@@ -102,7 +102,7 @@ const About = () => {
                   />
                   <h2
                     className='badge-title text-#8dce19 font-semibold'
-                    style={{ color: 'black', fontFamily: 'lexend' }}
+                    style={{ color: 'black' }}
                   >
                     {badge.title}
                   </h2>

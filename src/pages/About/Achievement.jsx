@@ -53,14 +53,14 @@ function Achievement() {
           >
             <h1
               className='text-3xl lg:text-5xl font-semibold mb-0 lg:mb-2'
-              style={{ fontSize: '4vw', fontFamily: 'Lexend' }}
+              style={{ fontSize: '4vw' }}
             >
               Accurate financials.
             </h1>
             <br />
             <h1
               className='text-3xl lg:text-5xl font-semibold mb-0 lg:mb-2'
-              style={{ fontSize: '4vw', fontFamily: 'Lexend' }}
+              style={{ fontSize: '4vw' }}
             >
               Total peace
             </h1>

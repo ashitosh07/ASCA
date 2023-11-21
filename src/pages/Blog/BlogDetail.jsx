@@ -56,12 +56,7 @@ const BlogDetail = ({ blogData }) => {
 
       {/* Title and Description */}
       <div className='mb-8' style={{ padding: '0 5%' }}>
-        <h1
-          className='text-3xl mb-4'
-          style={{ fontFamily: "'Mukta', sans-serif" }}
-        >
-          {title}
-        </h1>
+        <h1 className='text-3xl mb-4'>{title}</h1>
         <p className='text-lg mb-6' style={{ color: 'gray' }}>
           {description}
         </p>
@@ -99,7 +94,6 @@ const BlogDetail = ({ blogData }) => {
             key={index}
             className='mb-6 text-left'
             style={{
-              fontFamily: "'Mukta', sans-serif",
               wordBreak: 'break-word',
               padding: '0 15%',
             }}
@@ -149,7 +143,6 @@ const BlogDetail = ({ blogData }) => {
             key={index}
             className='mb-6 text-left'
             style={{
-              fontFamily: "'Mukta', sans-serif",
               wordBreak: 'break-word',
               padding: '0 5%',
             }}
@@ -180,7 +173,6 @@ const BlogDetail = ({ blogData }) => {
             key={index}
             className='mb-6 text-left'
             style={{
-              fontFamily: "'Mukta', sans-serif",
               wordBreak: 'break-word',
               padding: '0 5%',
             }}

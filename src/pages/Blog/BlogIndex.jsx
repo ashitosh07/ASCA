@@ -29,10 +29,7 @@ const BlogIndex = () => {
           className='flex flex-col items-center justify-center'
           style={{ maxWidth: '37rem' }}
         >
-          <h1
-            className='text-3xl mt-8 mb-8'
-            style={{ fontFamily: 'lexend', fontSize: '29px' }}
-          >
+          <h1 className='text-3xl mt-8 mb-8' style={{ fontSize: '29px' }}>
             Newsletter space
           </h1>
         </div>
