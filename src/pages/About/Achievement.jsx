@@ -71,7 +71,7 @@ function Achievement() {
             </div>
           </div>
           <div className='w-full lg:w-1/2 p-4'>
-            <motion.div
+            <div
               initial={{ y: '100vh' }}
               animate={{ y: 0 }}
               transition={{ duration: 1 }}
@@ -84,7 +84,7 @@ function Achievement() {
                 width='343px'
                 height='297.08px'
               />
-            </motion.div>
+            </div>
           </div>
         </div>
         <div
@@ -115,7 +115,7 @@ function Achievement() {
         <div className='parent min-h-[70vh] flex flex-col items-center justify-around lg:flex-row p-4'>
           {/* Image Column */}
           <div className='w-full lg:w-1/2 p-2'>
-            <motion.div
+            <div
               initial={{ x: '100vw' }}
               animate={{ x: 0 }}
               transition={{ duration: 1 }}
@@ -126,12 +126,12 @@ function Achievement() {
                 alt='Decorative'
                 className='w-full lg:w-3/4 h-auto mx-auto'
               />
-            </motion.div>
+            </div>
           </div>
 
           {/* Text Column */}
           <div className='w-full lg:w-1/2 p-4'>
-            <motion.div
+            <div
               initial={{ x: '-100vw' }}
               animate={{ x: 0 }}
               transition={{ duration: 1 }}
@@ -149,14 +149,14 @@ function Achievement() {
                 since the 1500s, when an unknown printer took a galley of type
                 and scrambled
               </p>
-            </motion.div>
+            </div>
           </div>
         </div>
         {/*  */}
         <div className='parent min-h-[70vh] flex flex-col items-center justify-around lg:flex-row p-4'>
           {/* Text Column */}
           <div className='w-full lg:w-1/2 lg:pl-24 p-4'>
-            <motion.div
+            <div
               initial={{ x: '-100vw' }}
               animate={{ x: 0 }}
               transition={{ duration: 1 }}
@@ -174,11 +174,11 @@ function Achievement() {
                 since the 1500s, when an unknown printer took a galley of type
                 and scrambled
               </p>
-            </motion.div>
+            </div>
           </div>{' '}
           {/* Image Column */}
           <div className='w-full lg:w-1/2 p-2'>
-            <motion.div
+            <div
               initial={{ x: '100vw' }}
               animate={{ x: 0 }}
               transition={{ duration: 1 }}
@@ -189,14 +189,14 @@ function Achievement() {
                 alt='Decorative'
                 className='w-full lg:w-3/4 h-auto mx-auto'
               />
-            </motion.div>
+            </div>
           </div>
         </div>
         {/*  */}
         <div className='parent min-h-[70vh] flex flex-col items-center justify-around lg:flex-row p-4'>
           {/* Image Column */}
           <div className='w-full lg:w-1/2 p-2'>
-            <motion.div
+            <div
               initial={{ x: '100vw' }}
               animate={{ x: 0 }}
               transition={{ duration: 1 }}
@@ -207,12 +207,12 @@ function Achievement() {
                 alt='Decorative'
                 className='w-full lg:w-3/4 h-auto mx-auto'
               />
-            </motion.div>
+            </div>
           </div>
 
           {/* Text Column */}
           <div className='w-full lg:w-1/2 p-4'>
-            <motion.div
+            <div
               initial={{ x: '-100vw' }}
               animate={{ x: 0 }}
               transition={{ duration: 1 }}
@@ -230,14 +230,14 @@ function Achievement() {
                 since the 1500s, when an unknown printer took a galley of type
                 and scrambled
               </p>
-            </motion.div>
+            </div>
           </div>
         </div>
         {/*  */}
         <div className='parent min-h-[70vh] flex flex-col items-center justify-around lg:flex-row p-4'>
           {/* Text Column */}
           <div className='w-full lg:w-1/2 lg:pl-24 p-4'>
-            <motion.div
+            <div
               initial={{ x: '-100vw' }}
               animate={{ x: 0 }}
               transition={{ duration: 1 }}
@@ -255,11 +255,11 @@ function Achievement() {
                 since the 1500s, when an unknown printer took a galley of type
                 and scrambled
               </p>
-            </motion.div>
+            </div>
           </div>{' '}
           {/* Image Column */}
           <div className='w-full lg:w-1/2 p-2'>
-            <motion.div
+            <div
               initial={{ x: '100vw' }}
               animate={{ x: 0 }}
               transition={{ duration: 1 }}
@@ -270,7 +270,7 @@ function Achievement() {
                 alt='Decorative'
                 className='w-full lg:w-3/4 h-auto mx-auto'
               />
-            </motion.div>
+            </div>
           </div>
         </div>
         <div
