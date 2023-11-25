@@ -25,8 +25,8 @@ const Project = () => {
           padding: '20px',
         }}
       >
-        <div className='parent min-h-[90vh] flex flex-col-reverse lg:flex-row items-center justify-between'>
-          <motion.div
+        <div className='parent min-h-[90vh] flex flex-col lg:flex-row  items-center justify-between gap-8'>
+          <div
             className='w-full md:w-1/2 text-center'
             initial={{ x: '100vw' }}
             animate={{ x: 0 }}
@@ -37,20 +37,20 @@ const Project = () => {
               alt='Decorative'
               className='mx-auto mt-4'
               style={{
-                width: '72%',
+                width: '100%',
                 height: '90%',
                 marginTop: '20px',
               }}
             />
-          </motion.div>
-          <motion.div
+          </div>
+          <div
             initial={{ x: '-100vw' }}
             animate={{ x: 0 }}
             transition={{ duration: 1 }}
           >
             <h3
               className='text-4xl font-semibold mb-0'
-              style={{ color: '#060505' }}
+              style={{ color: '#060505', margin: '30px 0' }}
             >
               User Dashboard: Upload and Task Progress
             </h3>
@@ -75,7 +75,7 @@ const Project = () => {
 
             <div className='lg:flex lg:flex-row flex-col items-center'>
               <button
-                className='mb-2 mr-3 lg:mb-0 '
+                className='mb-2 mr-4 lg:mb-0 '
                 style={{
                   backgroundColor: '#8dce19',
                   borderRadius: '8px',
@@ -99,7 +99,7 @@ const Project = () => {
                 <span>Sign up</span>
               </button>
             </div>
-          </motion.div>
+          </div>
         </div>
         <div
           className='client-logos'

@@ -90,8 +90,8 @@ const Service = () => {
   return (
     <>
       <div className='parent py-10'>
-        <motion.div
-          className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6'
+        <div
+          className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 p-4'
           ref={ref}
           initial='hidden'
           animate={viewDiv && 'visible'}
@@ -105,13 +105,20 @@ const Service = () => {
             { text: 'Compliance Rate', count: '100%' },
           ].map((item, index) => (
             <div key={index} className='text-center'>
-              <h2 className='text-2xl font-semibold mb-1'>{item.count}</h2>
-              <p className='text-neutral mb-2'>{item.text}</p>
+              <h2
+                className=' font-semibold mb-1'
+                style={{ fontSize: '43.94px' }}
+              >
+                {item.count}
+              </h2>
+              <p className='text-neutral mb-2' style={{ fontSize: '21.97px' }}>
+                {item.text}
+              </p>
             </div>
           ))}
-        </motion.div>
+        </div>
 
-        <motion.div
+        <div
           className='mb-12 mt-16'
           initial='hidden'
           animate={viewDiv && 'visible'}
@@ -119,9 +126,9 @@ const Service = () => {
         >
           <h1 className='text-4xl font-semibold text-center'>The Team</h1>
           {/* <BottomLine /> */}
-        </motion.div>
+        </div>
 
-        <motion.div
+        <div
           className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6'
           ref={ref}
           initial='hidden'
@@ -186,59 +193,26 @@ const Service = () => {
               </div> */}
             </div>
           ))}
-        </motion.div>
-
-        <div className='parent flex' style={{ padding: '15% 0 0 0' }}>
-          <motion.div
-            className='text-left p-2'
-            initial='hidden'
-            animate={viewDiv && 'visible'}
-            variants={headingAnimation}
+        </div>
+        <div className='parent flex flex-col md:flex-row items-start mt-16'>
+          <h1
+            className='text-4xl font-semibold md:pr-8 mb-4 md:mb-0 ml-6'
+            style={{ marginTop: '100px' }}
           >
-            <button
-              className='bg-green-500 text-black px-3 py-3 rounded-lg text-sm mb-2'
-              style={{
-                backgroundColor: '#8dce19',
-                borderRadius: '40px',
-                fontSize: '20px',
-                visibility: 'hidden',
-              }}
-            >
-              SERVICES
-            </button>
-            <h1
-              className='text-4xl font-semibold md:pr-30'
-              style={{ marginTop: '20px', marginRight: '10%' }}
-            >
-              Services
-            </h1>
-            <p
-              className=' text-grey-500  md:pr-30'
-              style={{
-                marginRight: '20%',
-                visibility: 'hidden',
-              }}
-            >
-              is simply dummy text of the printing and typesetting industry. is
-              simply dummy text of the printing and typesetting industry.
-            </p>
-          </motion.div>
+            Services
+          </h1>
 
-          <div className='text-left p-4'>
+          <div className='text-left md:ml-auto'>
             <img
               src={hiring}
               alt='Image Description'
-              className='hidden md:block w-auto h-auto mx-auto'
-              style={{ marginLeft: '10%' }}
+              className='hidden md:block max-w-md mx-auto'
             />
           </div>
         </div>
-        <motion.div
+
+        <div
           className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6'
-          ref={ref}
-          initial='hidden'
-          animate={viewDiv && 'visible'}
-          variants={sectionBodyAnimation}
           style={{ marginTop: '5%', marginBottom: '8%' }}
         >
           {cardData.map((data, index) => (
@@ -246,11 +220,13 @@ const Service = () => {
               key={index}
               className='card bg-gray-700 p-4 mx-2 mb-4 sm:mx-0 sm:w-full lg:w-3/4'
               style={{
-                minHeight: '150px',
+                // minHeight: '150px',
+                maxHeight: '400px',
                 padding: '2rem',
                 margin: '0 auto',
                 backgroundColor: '#0E1013',
-                minWidth: '380px',
+                minWidth: '300px', // Adjusted for mobile view
+                maxWidth: '600px', // Adjusted for web view
               }}
             >
               <div>
@@ -260,7 +236,11 @@ const Service = () => {
                   style={{ color: '#B3B3B3' }}
                 >
                   {data.description.split('\n').map((point, pointIndex) => (
-                    <li key={pointIndex} className='break-words'>
+                    <li
+                      key={pointIndex}
+                      className='break-words'
+                      style={{ fontSize: '14px' }}
+                    >
                       {point}
                     </li>
                   ))}
@@ -271,7 +251,7 @@ const Service = () => {
                   className='flex items-center text-sm'
                   style={{ color: '#8dce19' }}
                 >
-                  <span style={{ fontSize: '12px', marginRight: '10px' }}>
+                  <span style={{ fontSize: '16px', marginRight: '10px' }}>
                     View More
                   </span>
                   <BsFillArrowRightCircleFill className='icon' />
@@ -313,7 +293,7 @@ const Service = () => {
               </div>
             </div>
           ))} */}
-        </motion.div>
+        </div>
       </div>
     </>
   )

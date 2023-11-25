@@ -53,8 +53,8 @@ const Contact = () => {
   }
   return (
     <div className='parent py-20 md:p-20 '>
-      <div className='grid grid-cols-1 md:grid-cols-2 gap-8 mt-8'>
-        <motion.div
+      <div className='grid grid-cols-1 md:grid-cols-2 gap-8 mt-8 '>
+        <div
           className=''
           ref={ref}
           initial='hidden'
@@ -130,8 +130,8 @@ const Contact = () => {
               </div>
             </form>
           </div>
-        </motion.div>
-        <motion.div
+        </div>
+        <div
           className='flex flex-col items-start justify-center p-6'
           initial={{ y: 50, opacity: 0 }}
           animate={viewDiv && 'visible'}
@@ -191,7 +191,7 @@ const Contact = () => {
               </button>{' '}
             </a>
           </div>
-        </motion.div>
+        </div>
       </div>
     </div>
   )
