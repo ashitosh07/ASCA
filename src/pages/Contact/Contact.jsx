@@ -52,8 +52,8 @@ const Contact = () => {
     e.target.reset()
   }
   return (
-    <div className='parent py-20 md:p-20 '>
-      <div className='grid grid-cols-1 md:grid-cols-2 gap-8 mt-8 '>
+    <div className='parent py-20 md:p-20 flex flex-col-reverse md:flex-row p-4'>
+      <div className='grid grid-cols-1 md:grid-cols-2 gap-8 mt-8 flex-col-reverse'>
         <div
           className=''
           ref={ref}
@@ -64,7 +64,6 @@ const Contact = () => {
           <div
             className='form-container'
             style={{
-              padding: '20px',
               borderRadius: '10px',
               backgroundColor: '#111111',
             }}
@@ -73,13 +72,12 @@ const Contact = () => {
               ref={form}
               onSubmit={handleSend}
               style={{
-                padding: '10px',
-                border: '2px solid',
+                // border: '2px solid',
                 borderImage:
                   'linear-gradient(to right, #0a0d0b, #1c3e2a, #237349, #22ad69, #12eb8b) 2 0',
               }}
             >
-              <div className='form-group' style={{ marginBottom: '10px' }}>
+              <div className='form-group' style={{ marginBottom: '6px' }}>
                 <label htmlFor='name'>Name</label>
                 <input
                   className='input-field'
@@ -88,10 +86,12 @@ const Contact = () => {
                   id='name'
                   placeholder='Name'
                   required
-                  style={{ backgroundColor: 'white' }}
+                  style={{
+                    backgroundColor: 'white',
+                  }}
                 />
               </div>
-              <div className='form-group' style={{ marginBottom: '10px' }}>
+              <div className='form-group' style={{ marginBottom: '6px' }}>
                 <label htmlFor='email'>Email</label>
                 <input
                   className='input-field'
@@ -103,7 +103,7 @@ const Contact = () => {
                   style={{ backgroundColor: 'white' }}
                 />
               </div>
-              <div className='form-group' style={{ marginBottom: '10px' }}>
+              <div className='form-group' style={{ marginBottom: '6px' }}>
                 <label htmlFor='phone'>Phone</label>
                 <input
                   className='input-field'
@@ -132,7 +132,7 @@ const Contact = () => {
           </div>
         </div>
         <div
-          className='flex flex-col items-start justify-center p-6'
+          className='flex flex-col  items-start justify-center p-6'
           initial={{ y: 50, opacity: 0 }}
           animate={viewDiv && 'visible'}
           variants={contactAnimation}
@@ -142,7 +142,9 @@ const Contact = () => {
             style={{
               marginBottom: '20px',
               textAlign: 'left',
-              marginRight: '50%',
+              fontWeight: 'bold',
+              fontSize: '36px',
+              marginRight: '40%',
             }}
           >
             Simply dummy text of the printing and
@@ -171,7 +173,7 @@ const Contact = () => {
                 <span
                   style={{
                     color: 'black',
-                    fontWeight: '600',
+                    fontWeight: 'bold',
                   }}
                 >
                   Login

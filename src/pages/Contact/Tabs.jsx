@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
 import { cardData } from './TabsData'
 function Tabs() {
-  const [selectedTab, setSelectedTab] = useState('ongoing')
+  const [selectedTab, setSelectedTab] = useState('Ongoing')
   const [selectedCard, setSelectedCard] = useState(null)
   const [viewDiv, setViewDiv] = useState(false)
   const [ref, inView] = useInView({ threshold: 0.3, triggerOnce: true })
@@ -30,8 +30,8 @@ function Tabs() {
   return (
     <div className='parent py-20 md:p-20'>
       <div className='grid grid-cols-1 md:grid-cols-1 gap-8 mt-8'>
-        <motion.div
-          className=''
+        <div
+          className='p-2'
           ref={ref}
           initial='hidden'
           animate={viewDiv && 'visible'}
@@ -70,7 +70,7 @@ function Tabs() {
                     color: '#8dce19',
                     fontSize: '30px',
                     cursor: 'pointer',
-                    paddingLeft: '30px',
+
                     marginBottom: '20px',
                   }}
                   onClick={handleBackButtonClick}
@@ -169,7 +169,7 @@ function Tabs() {
                       style={{
                         display: 'flex',
                         alignItems: 'center',
-                        width: '340px',
+                        width: '300px',
                         height: '130px',
                         margin: '10px',
                         // marginRight: '4px',
@@ -204,7 +204,7 @@ function Tabs() {
               </div>
             )}
           </div>
-        </motion.div>
+        </div>
       </div>
     </div>
   )

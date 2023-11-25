@@ -58,8 +58,8 @@ const Userboard = () => {
     <>
       <div className='parent py-20 md:p-20'>
         <div className='grid grid-cols-1 md:grid-cols-1 gap-8 mt-8'>
-          <motion.div
-            className=''
+          <div
+            className='p-2'
             ref={ref}
             initial='hidden'
             animate={viewDiv && 'visible'}
@@ -74,7 +74,10 @@ const Userboard = () => {
               }}
             >
               <form ref={form} onSubmit={handleSend}>
-                <h1 className='form-title' style={{ paddingRight: '70%' }}>
+                <h1
+                  className='form-title lg:pr-80'
+                  style={{ fontSize: '26px' }}
+                >
                   Lorem Ipsum has been the industry's standard dummy
                 </h1>
                 <div className='form-grid'>
@@ -165,7 +168,7 @@ const Userboard = () => {
                 </div>
               </form>
             </div>
-          </motion.div>
+          </div>
         </div>
       </div>
       <Tabs />

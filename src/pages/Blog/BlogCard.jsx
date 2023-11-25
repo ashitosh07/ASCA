@@ -33,10 +33,18 @@ function BlogCard() {
 
   return (
     <>
-      <div className='flex flex-col items-center justify-center mt-16'>
-        <h1 className='text-4xl font-semibold mb-2 text-center'>Blog</h1>
+      <div className='flex flex-col items-center justify-center mt-16 bg-black'>
+        <h1
+          className='text-4xl font-semibold mb-2 text-center p-4 pt-8'
+          style={{ fontSize: '51.56px' }}
+        >
+          Blog
+        </h1>
 
-        <p className='text-gray-400 mb-4 text-center'>
+        <p
+          className='text-gray-400 mb-4 text-center'
+          style={{ fontSize: '18px' }}
+        >
           Simply dummy text of the printing and typesetting industry.
         </p>
 
@@ -48,8 +56,8 @@ function BlogCard() {
         </label>
         <div className='relative mb-10'>
           <div
-            className='absolute inset-y-0 start-0 flex items-center ps-3 border border-r-0 border-gray-300 dark:border-dark-800 pointer-events-none'
-            style={{ borderColor: '#8dce19', borderRadius: '30%' }}
+            className='absolute inset-y-0 start-0 flex items-center ps-3 border border-r-0  dark:border-dark-800 pointer-events-none'
+            style={{ borderColor: '#8dce19' }}
           >
             <svg
               className='w-6 h-4 text-gray-500 dark:text-gray-400'

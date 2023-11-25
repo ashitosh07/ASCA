@@ -10,7 +10,8 @@
 }
 
 .input-field::placeholder {
-  color: rgb(255, 248, 248);
+  color: #bbc3cf;
+  font-weight: bold;
 }
 
 .input-field:focus {
@@ -33,6 +34,12 @@ input[data-autocompleted] {
   border-bottom-left-radius: 10px;
   border: 1px solid #8dce19;
   border-color: transparent #8dce19 #8dce19 transparent;
+}
+
+@media (max-width: 540px) {
+  .form-container {
+    padding: 10px !important;
+  }
 }
 
 .form-grid {
@@ -110,4 +117,8 @@ input[data-autocompleted] {
 
   margin-bottom: 20px;
   color: #f6eded;
+}
+
+label {
+  font-size: 16px;
 }

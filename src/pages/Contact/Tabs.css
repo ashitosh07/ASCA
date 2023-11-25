@@ -64,7 +64,7 @@
 .details-grid {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-
+  margin-right: -25px;
   margin-top: 20px;
   margin-bottom: 40px;
 }
@@ -79,6 +79,7 @@
 
 .detail-row {
   display: flex;
+  margin-right: 26px;
   flex-direction: column;
   justify-content: space-between;
 }
@@ -161,12 +162,18 @@ p {
     /* Add margin to separate the progress bar and text */
   }
   .detail-value {
-    margin-top: 30%;
+    margin-top: 10%;
     /* Add styling for the detail value */
   }
   .progress-bar-fill {
     height: 100%;
     width: 50%; /* Adjust the width based on the progress */
     background-color: #8dce19; /* Set your desired fill color */
+  }
+  .status-section {
+    margin-top: 30%;
+  }
+  hr {
+    visibility: hidden;
   }
 }
