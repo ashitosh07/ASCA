@@ -87,6 +87,7 @@ const Contact = () => {
                   placeholder='Name'
                   required
                   style={{
+                    color: 'black',
                     backgroundColor: 'white',
                   }}
                 />
@@ -100,7 +101,7 @@ const Contact = () => {
                   id='email'
                   placeholder='Email'
                   required
-                  style={{ backgroundColor: 'white' }}
+                  style={{ color: 'black', backgroundColor: 'white' }}
                 />
               </div>
               <div className='form-group' style={{ marginBottom: '6px' }}>
@@ -112,7 +113,7 @@ const Contact = () => {
                   id='phone'
                   placeholder='Phone'
                   required
-                  style={{ backgroundColor: 'white' }}
+                  style={{ color: 'black', backgroundColor: 'white' }}
                 />
               </div>
               <div className='form-group'>
@@ -125,7 +126,7 @@ const Contact = () => {
                   rows='5'
                   placeholder='Description'
                   required
-                  style={{ backgroundColor: 'white' }}
+                  style={{ color: 'black', backgroundColor: 'white' }}
                 ></textarea>
               </div>
             </form>

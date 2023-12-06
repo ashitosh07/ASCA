@@ -139,10 +139,10 @@ const Project = () => {
               width: '100%',
             }}
           >
-            <div className='flex flex-col items-center p-4'>
-              <div className='flex p-4'>
+            <div className='flex flex-col items-center lg:p-4'>
+              <div className='flex lg:p-4'>
                 <div
-                  className='circle-1 rounded-full w-full md:w-48 h-48  flex items-center justify-center p-4'
+                  className='circle-1 rounded-full w-full md:w-48 h-48  flex items-center justify-center lg:p-4'
                   // style={{ margin: '0 30px 40px 30p' }}
                 >
                   <img
@@ -153,22 +153,27 @@ const Project = () => {
                 </div>
                 <div
                   className='circle-2 rounded-full w-full md:w-48 h-48 flex items-center justify-center md:mt-0'
-                  style={{ margin: '80px 80px 20px 130px' }}
+                  // style={{ margin: '80px 80px 20px 130px' }}
                 >
                   <img
                     src={client2}
                     alt='Client Logo 2'
                     className='w-full h-auto'
                   />{' '}
-                  {/* <style jsx>{`
+                  <style jsx>{`
                     @media only screen and (min-width: 701px) {
-                      .rounded-full {
+                      .circle-2 {
                         margin: 80px 80px 20px 130px;
                       }
                     }
-                  `}</style> */}
+                    @media only screen and (max-width: 401px) {
+                      .circle-2 {
+                        margin: 100px 0px 0 0px;
+                      }
+                    }
+                  `}</style>
                 </div>
-                <div className='circle-3 rounded-full w-full md:w-48 h-48 flex items-center justify-center mt-4 md:mt-0'>
+                <div className='circle-3 rounded-full w-full md:w-48 h-48 flex items-center justify-center lg:mt-4 md:mt-0'>
                   <img
                     src={client3}
                     alt='Client Logo 3'
@@ -178,126 +183,140 @@ const Project = () => {
               </div>
               <div className='flex '>
                 <div
-                  className='circle-4 rounded-full w-full md:w-48 h-48 flex items-center justify-center mt-4 '
-                  style={{ margin: '-100px 80px 200px 30px' }}
+                  className='circle-4 rounded-full w-full md:w-48 h-48 flex items-center justify-center lg:mt-4 '
+                  // style={{ margin: '-100px 80px 200px 30px' }}
                 >
                   <img
                     src={client4}
                     alt='Client Logo 4'
                     className='w-full h-auto'
                   />
-                  {/* <style jsx>{`
+                  <style jsx>{`
                     @media only screen and (min-width: 701px) {
-                      .rounded-full {
+                      .circle-4 {
                         margin: -100px 80px 200px 30px;
                       }
                     }
-                  `}</style> */}
+                  `}</style>
                 </div>
                 <div
-                  className='circle-5 rounded-full w-full md:w-48 h-48 flex items-center justify-center mt-4 md:mt-0'
-                  style={{ margin: '0px 200px 0 0px' }}
+                  className='circle-5 rounded-full w-full md:w-48 h-48 flex items-center justify-center lg:mt-4 md:mt-0'
+                  // style={{ margin: '0px 200px 0 0px' }}
                 >
                   <img
                     src={client2}
                     alt='Client Logo 5'
                     className='w-full h-auto'
                   />{' '}
-                  {/* <style jsx>{`
+                  <style jsx>{`
                     @media only screen and (min-width: 701px) {
-                      .rounded-full {
+                      .circle-5 {
                         margin: 0px 200px 0 0px;
                       }
                     }
-                  `}</style> */}
+                    @media only screen and (max-width: 401px) {
+                      .circle-5 {
+                        margin: 100px 0px 0 0px;
+                      }
+                    }
+                  `}</style>
                 </div>
                 <div
-                  className='circle-6 rounded-full w-full md:w-48 h-48 flex items-center justify-center mt-4 md:mt-0'
-                  style={{ margin: '0px 30px 0 0px' }}
+                  className='circle-6 rounded-full w-full md:w-48 h-48 flex items-center justify-center lg:mt-4 md:mt-0'
+                  // style={{ margin: '0px 30px 0 0px' }}
                 >
                   <img
                     src={client1}
                     alt='Client Logo 6'
                     className='w-full h-auto'
                   />
-                  {/* <style jsx>{`
+                  <style jsx>{`
                     @media only screen and (min-width: 701px) {
-                      .rounded-full {
+                      .circle-6 {
                         margin: 0px 30px 0 0px;
                       }
                     }
-                  `}</style> */}
+                    @media only screen and (max-width: 401px) {
+                      .circle-6 {
+                        margin: 100px 0px 0 0px;
+                      }
+                    }
+                  `}</style>
                 </div>
                 <div
-                  className='rounded-full w-full md:w-48 h-48 flex items-center justify-center mt-4 md:mt-0'
-                  style={{ margin: '0px 200px 0 0px' }}
+                  className='circle-7 rounded-full w-full md:w-48 h-48 flex items-center justify-center lg:mt-4 md:mt-0'
+                  // style={{ margin: '0px 200px 0 0px' }}
                 >
                   <img
                     src={client4}
                     alt='Client Logo 7'
                     className='w-full h-auto'
                   />{' '}
-                  {/* <style jsx>{`
+                  <style jsx>{`
                     @media only screen and (min-width: 701px) {
-                      .rounded-full {
+                      .circle-7 {
                         margin: 0px 200px 0 0px;
                       }
                     }
-                  `}</style> */}
+                  `}</style>
                 </div>
               </div>
               <div className='flex '>
                 <div
-                  className='rounded-full w-full md:w-48 h-48 flex items-center justify-center mt-4'
-                  style={{ margin: '-53px 102px 40px 100px' }}
+                  className='circle-8 rounded-full w-full md:w-48 h-48 flex items-center justify-center lg:mt-2'
+                  // style={{ margin: '-53px 102px 40px 100px' }}
                 >
                   <img
                     src={client1}
                     alt='Client Logo 8'
                     className='w-full h-auto'
                   />{' '}
-                  {/* <style jsx>{`
+                  <style jsx>{`
                     @media only screen and (min-width: 701px) {
-                      .rounded-full {
+                      .circle-8 {
                         margin: -53px 202px 40px 0px;
                       }
                     }
-                  `}</style> */}
+                  `}</style>
                 </div>
                 <div
-                  className='rounded-full w-full md:w-48 h-48 flex items-center justify-center mt-24 '
+                  className='circle-9 rounded-full w-full md:w-48 h-48 flex items-center justify-center lg:mt-16 lg:mr-16'
                   // style={{ margin: '120px 30px 240px 20' }}
                 >
                   <img
                     src={client3}
                     alt='Client Logo 9'
                     className='w-full h-auto'
-                    style={{ margin: '120px 330px 240px 20' }}
                   />{' '}
-                  {/* <style jsx>{`
+                  <style jsx>{`
                     @media only screen and (min-width: 701px) {
-                      .rounded-full {
-                        margin: 120px 330px 240px 20;
+                      .circle-9 {
+                        margin: 320px 330px 240px 20;
                       }
                     }
-                  `}</style> */}
+                    @media only screen and (max-width: 401px) {
+                      .circle-9 {
+                        margin: 100px 0px 0 0px;
+                      }
+                    }
+                  `}</style>
                 </div>
                 <div
-                  className='rounded-full w-full md:w-48 h-48 flex items-center justify-center mt-4'
-                  style={{ margin: '-50px 230px 240px 100px' }}
+                  className='circle-10 rounded-full w-full md:w-48 h-48 flex items-center justify-center lg:mt-4'
+                  // style={{ margin: '-50px 230px 240px 100px' }}
                 >
                   <img
                     src={client2}
                     alt='Client Logo 10'
                     className='w-full h-auto'
                   />
-                  {/* <style jsx>{`
+                  <style jsx>{`
                     @media only screen and (min-width: 701px) {
-                      .rounded-full {
+                      .circle-10 {
                         margin: -50px 30px 240px 0;
                       }
                     }
-                  `}</style> */}
+                  `}</style>
                 </div>
               </div>
             </div>
