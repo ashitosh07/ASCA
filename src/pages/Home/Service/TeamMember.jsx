@@ -82,7 +82,7 @@ const TeamMember = () => {
         <div className='container mx-auto flex flex-col-reverse lg:flex-row items-center'>
           <div className='lg:w-1/2 text-center lg:text-left'>
             <button
-              className='bg-green-500 hover:bg-blue-700 text-white py-2 px-4 rounded'
+              className='bg-green-500 hover:bg-blue-700 text-white py-1 px-2 rounded'
               style={{
                 backgroundColor: '#8dce19',
                 // fontWeight: '700',
