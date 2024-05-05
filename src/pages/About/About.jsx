@@ -28,45 +28,36 @@ const About = () => {
     >
       <div className='flex justify-center items-center p-4'>
         <div className='grid grid-cols-1 md:grid-cols-1 gap-8'>
-          <p style={{ ...h1Styles, ...mediaQueryStyles }}>About</p>
+          <p style={{ ...h1Styles, ...mediaQueryStyles }}>ABOUT ASCA</p>
           <div className='centered-container'>
             <p className='text-neutral font-medium'>
-              Founded in 2018 by CA Anwesh Shetty, our firm stands at the
-              forefront of financial compliance and client education,
-              distinguished by our ISO certification and a commitment to clarity
-              and understanding. As a full-service firm, we offer an extensive
-              array of services including tax consulting, tax filing, audit
-              services, business advisory, and litigation support.
+              In a world where financial intricacies can leave people feeling
+              lost, Chartered Accountants serve as indispensable guides, helping
+              both individuals and businesses maneuver through the complex
+              terrain of finance with confidence and clarity.
             </p>
             <br />
             <p className='text-neutral font-medium'>
-              We specialize in catering to the unique needs of small and
-              medium-sized businesses, providing them with tailored solutions
-              that demystify the complexities of financial compliance. At the
-              heart of our approach are our core values: a relentless pursuit of
-              knowledge in an ever-evolving landscape, an unwavering focus on
-              client education, simplification of complex matters, and a
-              steadfast commitment to transparency. Our technologically advanced
-              operations reflect our belief in the power of modern solutions to
-              enhance efficiency and accuracy
+              At ASCA, we embrace a vision that transcends the traditional scope
+              of Chartered Accountancy and go beyond just number crunching or
+              preparing tax returns.Our team, a blend of experienced experts and
+              dynamic new talent, is deeply committed to crafting solutions to
+              meet financial and legal requirements.
             </p>
             <br />
             <p className='text-neutral font-medium'>
-              Our dynamic team comprises young professionals, including
-              Chartered Accountants, Company Secretaries, and Lawyers, all
-              dedicated to offering end-to-end compliance solutions. We pride
-              ourselves on our automated work environment that upholds the
-              highest standards of integrity and client confidentiality.
-              Responsiveness and attentiveness to client queries are the
-              hallmarks of our service, ensuring that every client receives the
-              attention and expertise they deserve.
+              With a foundation built on integrity, we offer comprehensive
+              financial solutions tailored to your unique needs—from strategic
+              planning to the navigating complexities of regulatory
+              compliance.Founded on principles of unwavering transparency,
+              relentless diligence, and unparalleled precision, we guarantee
+              your thorough comprehension, leading you to make informed
+              decisions
             </p>
             <br />
-            <p className='text-neutral font-medium'>
-              In navigating the intricate world of financial regulations, we are
-              more than just your consultants; we are your trusted partners in
-              telling the story of your financial journey with clarity and
-              confidence.
+            <p className='text-neutral font-medium pb-8'>
+              Your trust in us marks the beginning of a lasting relationship,
+              and we're excited to embark on this journey with you.
             </p>
           </div>
         </div>
@@ -86,7 +77,7 @@ const About = () => {
           Anwesh Shetty
         </h1>
       </div>
-      <div style={{ margin: '3rem 0 4rem 0', padding: '0px 0 80px 0' }}>
+      {/* <div style={{ margin: '3rem 0 4rem 0', padding: '0px 0 80px 0' }}>
         <div className='grid grid-cols-1 md:grid-cols-4 gap-8'>
           {badges.map((badge, index) => (
             <div className=' text-center p-4'>
@@ -103,7 +94,7 @@ const About = () => {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }

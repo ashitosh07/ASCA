@@ -16,7 +16,7 @@ import 'react-modern-drawer/dist/index.css'
 import './Shared.css'
 import { SearchIcon } from '@heroicons/react/outline'
 import zoho from '../../assets/zoho.png'
-
+import CA from '../../assets/CA.png'
 import PrimaryBtn from '../../components/PrimaryBtn'
 import img from '../../assets/headerLogo.png'
 export default function Navbar() {
@@ -28,13 +28,13 @@ export default function Navbar() {
   const navLinks = [
     { title: 'Home', link: '/', icon: <FaHome /> },
     { title: 'About', link: '/about', icon: <RiFolderInfoFill /> },
+    { title: 'Services', link: '/services', icon: <FaDownload /> },
+    { title: 'Blogs', link: '/blogs', icon: <ImBlog /> },
     {
-      title: 'Contact Support',
+      title: 'Contact',
       link: '/contact',
       icon: <RiContactsBook2Fill />,
     },
-    { title: 'Blog', link: '/blog', icon: <ImBlog /> },
-    { title: 'Sign in', link: '/signin', icon: <FaDownload /> },
   ]
   const activeLink = ({ isActive }) => {
     return {
@@ -96,7 +96,11 @@ export default function Navbar() {
                 className='h-6 w-6 text-white hover:text-#8dce19 duration-300'
                 style={{ color: '#8dce19' }}
               /> */}
-                  <img src={zoho} alt='zoho' style={{ width: '30px' }} />
+                  <img
+                    src={CA}
+                    alt='CA'
+                    style={{ width: 'auto', marginTop: '22px' }}
+                  />
                 </li>
               </ul>
               <div className='block lg:hidden'>

@@ -4,6 +4,7 @@ import '../../shared/Shared.css'
 
 import myImage from '../../../assets/homeImg.png'
 
+import client from '../../../assets/client.png'
 const Banner = () => {
   return (
     <div className='parent min-h-[90vh] lg:flex lg:flex-row items-center justify-between pt-8'>
@@ -17,7 +18,7 @@ const Banner = () => {
             },
           }}
         >
-          Storytelling
+          Service Beyond Numbers:
         </h1>
         <br />
         <h1
@@ -29,24 +30,24 @@ const Banner = () => {
             },
           }}
         >
-          with numbers
+          Redefining Excellence
         </h1>
 
         <br />
         <p className='text-neutral max-w-xl mb-6 font-medium'>
-          Let's narrate yours. One-Stop Solution for Seamless Financial
-          Compliance.
+          Guiding businesses, professionals, and startups to financial and legal
+          success with unparalleled expertise and tailored insights
         </p>
 
         <div className='flex flex-row lg:flex-row items-center'>
-          <a href='' target='_blank'>
+          {/* <a href='' target='_blank'>
             <button className='primary-button'>
               <span style={{ color: 'black', fontWeight: 'bold' }}>Login</span>
             </button>
-          </a>
+          </a> */}
           <a href='' target='_blank'>
             <button className='primary-button lg:ml-4 ml-4 lg:mt-0'>
-              <b style={{ color: 'black' }}>Book a Call</b>
+              <b style={{ color: 'black' }}>Connect with us</b>
             </button>
           </a>
         </div>
@@ -54,7 +55,7 @@ const Banner = () => {
 
       <div className='w-full lg:w-1/2 p-8 mt-4'>
         <img
-          src={myImage}
+          src={client}
           alt='Decorative'
           className='lg:w-438 lg:h-423.56 sm:w-305 sm:w-294.94'
         />

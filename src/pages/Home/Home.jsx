@@ -44,7 +44,7 @@ const Home = () => {
           <About />
           <Testimonial />
           <Service />
-          <Blog />
+          {/* <Blog /> */}
           <BlogIndex />
           <Project />
           <Contact />

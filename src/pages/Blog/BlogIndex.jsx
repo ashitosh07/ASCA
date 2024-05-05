@@ -6,26 +6,24 @@ const BlogIndex = () => {
   return (
     <>
       <div className='flex flex-col items-center justify-center mt-8 p-8 text-center'>
-        <div className='flex flex-col items-center justify-center'>
-          <blockquote
-            className='p-4 rounded-lg text-center border-r-4 border-green-500'
-            style={{ maxWidth: '40rem', fontSize: '20px' }}
-          >
-            Lorem Ipsum has been the industry's standard dummy text ever since
-            the 1500s, when an unknown printer took a galley of type and
-            scrambled
-          </blockquote>
+        <div>
+          <h1 class='text-2xl font-bold mb-6'>Help section</h1>
+          <div class='flex flex-col items-center justify-center'>
+            <blockquote class='p-4 rounded-lg text-center border-r-4 border-green-500 max-w-xl text-lg'>
+              Committed to matching your unique financial requirements and
+              objectives, our team provides expert assistance tailored for your
+              success.
+            </blockquote>
+          </div>
+          <p class='mt-10 pb-10'>
+            <button class='px-4 py-2 bg-green-500 text-black rounded hover:bg-green-600 transition duration-300 font-bold'>
+              Get started
+            </button>
+          </p>
         </div>
-        <p className='mt-10' style={{ paddingBottom: '40px' }}>
-          <button
-            className='px-4 py-1 bg-green-500 text-black  rounded hover:bg-green-600 duration-300'
-            style={{ backgroundColor: '#8dce19', fontWeight: '700' }}
-          >
-            Help me
-          </button>
-        </p>
+
         <div className='border-t border-gray-700 mt-4 mb-6'></div>
-        <div
+        {/* <div
           className='flex flex-col items-center justify-center'
           style={{ maxWidth: '37rem' }}
         >
@@ -62,9 +60,9 @@ const BlogIndex = () => {
             />
             Professional access portal
           </label>
-        </div>
+        </div> */}
 
-        <div className='text-center mt-8'>
+        {/* <div className='text-center mt-8'>
           <div className='flex flex-col md:flex-row md:items-center'>
             <div className='text-lg md:text-left'>
               <label
@@ -145,7 +143,33 @@ const BlogIndex = () => {
           >
             Subscribe
           </button>
-        </div>
+        </div> */}
+      </div>
+      <div className='parent py-6'>
+        <section className='py-4 px-10 pt-10'>
+          <div className='container mx-auto flex flex-col-reverse lg:flex-row items-center'>
+            <div className='lg:w-1/2 text-center lg:text-left'>
+              <button
+                className='bg-green-500 hover:bg-blue-700 text-white py-2 px-4 rounded'
+                style={{
+                  backgroundColor: '#8dce19',
+                  // fontWeight: '700',
+                  marginBottom: '10px',
+                }}
+              >
+                Join our team
+              </button>
+              <h2 className='text-4xl font-bold mb-4'> We are hiring</h2>
+              <p className='text-gray-600 mb-8'>
+                "Great things in a professional firm are never done by one
+                person; they're done by a team of people."
+              </p>
+            </div>
+            <div className='md:w-1/2 flex justify-end'>
+              {/* <img src={hiring} alt='Company logo' className='max-w-md' /> */}
+            </div>
+          </div>
+        </section>
       </div>
     </>
   )

@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
-import { FaFacebook, FaLinkedin, FaInstagram } from 'react-icons/fa'
+import { FaFacebook, FaLinkedin, FaInstagram, FaYoutube } from 'react-icons/fa'
 import img from '../../assets/headerLogo.png'
+import CA from '../../assets/CA.png'
 import './Footer.css'
 const Footer = () => {
   const year = new Date()
@@ -48,8 +49,10 @@ const Footer = () => {
                   }}
                   // className='pr-10 sm:pr-0'
                 >
-                  Lorem Ipsum has been the industry's standard dummy text ever
-                  since the 1500s, when an unknown printer took a
+                  We're a ISO 9001:2015 certified, reputable CA firm with
+                  expertise in tax planning, audit services and financial
+                  consulting , serving businesses and individuals with tailored
+                  solutions.
                 </p>
               </div>
 
@@ -67,21 +70,21 @@ const Footer = () => {
                   href='#'
                   style={{ activeLink }}
                 >
-                  Contact
+                  Services
                 </a>
                 <a
                   className='flex items-center text-white hover:text-#8dce19 duration-300 mb-2 md:mb-0'
                   href='#'
                   style={{ activeLink }}
                 >
-                  Blog
+                  Contact
                 </a>
               </div>
 
               {/* 3rd Column */}
               <div className='md:w-full lg:w-1/3 flex flex-col  justify-center'>
                 {/* Search Bar */}
-                <div className='w-full flex items-start mb-4'>
+                {/* <div className='w-full flex items-start mb-4'>
                   <div className='relative flex items-start'>
                     <input
                       type='text'
@@ -114,34 +117,51 @@ const Footer = () => {
                   >
                     Search
                   </button>
-                </div>
+                </div> */}
+                <div className='flex flex-col items-center justify-center'>
+                  <div>
+                    <img
+                      src={CA}
+                      alt='CA'
+                      style={{ maxWidth: 'auto', margin: '0px 0' }}
+                    />
+                  </div>
 
-                {/* Social Media Icons */}
-                <div className='w-full flex items-start pt-4 pb-4'>
-                  <a
-                    className='inline-block mx-2'
-                    href='#'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                  >
-                    <FaLinkedin className='text-2xl text-blue-400' />
-                  </a>
-                  <a
-                    className='inline-block mx-2'
-                    href='#'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                  >
-                    <FaInstagram className='text-2xl text-pink-500' />
-                  </a>
-                  <a
-                    className='inline-block mx-2'
-                    href='#'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                  >
-                    <FaFacebook className='text-2xl text-blue-600' />
-                  </a>
+                  {/* Social Media Icons */}
+                  <div className='flex items-center justify-center pt-2 pb-2'>
+                    <a
+                      className='inline-block mx-2'
+                      href='#'
+                      target='_blank'
+                      rel='noopener noreferrer'
+                    >
+                      <FaLinkedin className='text-2xl text-blue-400' />
+                    </a>
+                    <a
+                      className='inline-block mx-2'
+                      href='#'
+                      target='_blank'
+                      rel='noopener noreferrer'
+                    >
+                      <FaInstagram className='text-2xl text-pink-500' />
+                    </a>
+                    <a
+                      className='inline-block mx-2'
+                      href='#'
+                      target='_blank'
+                      rel='noopener noreferrer'
+                    >
+                      <FaFacebook className='text-2xl text-blue-600' />
+                    </a>{' '}
+                    <a
+                      className='inline-block mx-2'
+                      href='#'
+                      target='_blank'
+                      rel='noopener noreferrer'
+                    >
+                      <FaYoutube className='text-2xl text-red-600' />
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>

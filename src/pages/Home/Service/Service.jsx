@@ -40,7 +40,7 @@ const Service = () => {
       id: 2,
       img: team2,
       name: 'Frenil Douza',
-      designation: 'CA, B. Com, FAFD',
+      designation: 'ACA, B. Com, FAFD',
       linkedin: 'https://www.linkedin.com/janesmith',
       instagram: 'https://www.instagram.com/janesmith',
       facebook: 'https://www.facebook.com/janesmith',
@@ -57,7 +57,7 @@ const Service = () => {
     {
       id: 4,
       img: team4,
-      name: ' Adril Dsilva',
+      name: " Adril D'Silva",
       designation: 'Senior Audit Manager',
       linkedin: 'https://www.linkedin.com/bobwilson',
       instagram: 'https://www.instagram.com/bobwilson',
@@ -67,30 +67,40 @@ const Service = () => {
 
   const cardData = [
     {
-      title: 'Registration Service',
+      title: 'STRATEGIC GROWTH & GOVERNANCE',
       description:
-        'Sole Proprietorship Firm Registration\n Partnership Firm Registration\n Limited Liability Partnership (LLP)\n Private Limited Company Registration\n One Person Company (OPC) Registration\n NGO Registration\n Trust Registration\n GST Registration\n Startup India Registration\n Import Export Code (IEC)\n PF ESI Registration\n Income Tax Exemption (80G, 12A) Registration',
+        'Strategic Planning and Business Strategy	\n Corporate Governance\n Legal Entity Formation\n Compliance and Regulatory\n Additional Services',
     },
     {
-      title: 'Compliance Service',
+      title: 'AUDIT AND ASSURANCE',
       description:
-        ' Income Tax Return Filing \n GST Return Filing \n Tax & Statutory Compliance Review \n Domestic and International Transfer Pricing \n Direct and Indirect Taxation Advisory \n International Taxation Advisory \n Tax Due Diligence \n Cross-Border Transaction Advisory \n Regulatory Support under FEMA, and RBI Guidelines \n Disclosure of Foreign Assets ',
+        'Statutory Audit under Indian and International GAAP \n Internal Audit \n Agreed Upon Procedures \n Investigation and Special Audits \n Review Services',
     },
     {
-      title: 'Legal Service',
+      title: 'TECHNOLOGY AND PROCESS OPTIMISATION		',
       description:
-        ' GST Litigation Support \n Income Tax Litigation Support \n Insolvency and Debt Resolution \n Arbitration ',
+        ' Business process reengineering \n ERP implementation and optimisation \n Financial systems automation	 \n Cloud computing advisory	\n Supply chain optimisation	 \n Change management and training	 ',
     },
     {
-      title: 'Audit Service',
+      title: 'Goods & Services Tax',
       description:
-        ' Statutory Audit under Indian and International GAAP \n Internal Audit \n Tax Audit \n Systems Audit \n Management Audit \n Agreed Upon Procedures \n Certification Services \n Investigation and Special Audits ',
+        'GST Registration \n GST Compliance \n GST Litigation \n Input Tax Credit \n Others',
+    },
+    {
+      title: 'Specialized Services',
+      description:
+        'Valuation & Due Diligence \n Start-up and Early Stage Support \n Insolvency and Debt Resolution	 \n Wealth and Legacy Planning	\n Corporate Finance	 \n Education and Training \n Labour Law	 ',
+    },
+    {
+      title: 'Goods & Services Tax',
+      description:
+        'GST Registration \n GST Compliance \n GST Litigation \n Input Tax Credit \n Others',
     },
   ]
   return (
     <>
-      <div className='parent py-10'>
-        <div
+      <div className='parent py-6'>
+        {/* <div
           className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 p-4'
           ref={ref}
           initial='hidden'
@@ -116,7 +126,7 @@ const Service = () => {
               </p>
             </div>
           ))}
-        </div>
+        </div> */}
 
         <div
           className='mb-12 mt-16'
@@ -194,26 +204,34 @@ const Service = () => {
             </div>
           ))}
         </div>
-        <div className='parent flex flex-col md:flex-row items-start mt-16'>
-          <h1
-            className='text-4xl font-semibold md:pr-8 mb-4 md:mb-0 ml-6'
-            style={{ marginTop: '100px' }}
-          >
-            Services
-          </h1>
 
-          <div className='text-left md:ml-auto'>
-            <img
-              src={hiring}
-              alt='Image Description'
-              className='hidden md:block max-w-md mx-auto'
-            />
+        <section className='py-4 px-10 pt-10'>
+          <div className='container mx-auto flex flex-col-reverse lg:flex-row items-center'>
+            <div className='lg:w-1/2 text-center lg:text-left'>
+              <button
+                className='bg-green-500 hover:bg-blue-700 text-white py-2 px-4 rounded'
+                style={{
+                  backgroundColor: '#8dce19',
+                  // fontWeight: '700',
+                  marginBottom: '10px',
+                }}
+              >
+                One-Stop Solution
+              </button>
+              <h2 className='text-4xl font-bold mb-4'> Our Expertise</h2>
+              <p className='text-gray-600 mb-8'>
+                We offer a comprehensive suite of services to empower your
+                financial success.
+              </p>
+            </div>
+            <div className='md:w-1/2 flex justify-end'>
+              <img src={hiring} alt='Company logo' className='max-w-md' />
+            </div>
           </div>
-        </div>
-
+        </section>
         <div
-          className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6'
-          style={{ marginTop: '5%', marginBottom: '8%' }}
+          className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6'
+          style={{ marginTop: '2%', marginBottom: '8%' }}
         >
           {cardData.map((data, index) => (
             <div
@@ -226,7 +244,7 @@ const Service = () => {
                 margin: '0 auto',
                 backgroundColor: '#0E1013',
                 minWidth: '300px', // Adjusted for mobile view
-                maxWidth: '600px', // Adjusted for web view
+                maxWidth: '500px', // Adjusted for web view
               }}
             >
               <div>

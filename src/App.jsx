@@ -29,7 +29,7 @@ function App() {
           <Route path='/project' element={<Project />} />
 
           <Route path='/contact' element={<Userboard />} />
-          <Route path='/blog' element={<BlogCard />} />
+          <Route path='/blogs' element={<BlogCard />} />
           <Route
             path='/blog/:id'
             element={<BlogDetail blogData={allBlogDetailsData} />}
