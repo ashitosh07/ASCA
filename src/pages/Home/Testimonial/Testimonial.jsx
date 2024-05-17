@@ -64,7 +64,7 @@ const Testimonial = () => {
         <BottomLine />
       </div>
 
-      <div
+      {/* <div
         ref={ref}
         initial='hidden'
         animate={viewDiv && 'visible'}
@@ -108,7 +108,7 @@ const Testimonial = () => {
             </div>
           ))}
         </Slider>
-      </div>
+      </div> */}
     </div>
   )
 }

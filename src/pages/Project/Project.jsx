@@ -110,7 +110,7 @@ const Project = () => {
             marginBottom: '10px',
           }}
         >
-          <h4
+          {/* <h4
             style={{
               color: '#000000',
               fontSize: '30px',
@@ -320,7 +320,7 @@ const Project = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

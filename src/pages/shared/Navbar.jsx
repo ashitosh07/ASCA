@@ -28,13 +28,14 @@ export default function Navbar() {
   const navLinks = [
     { title: 'Home', link: '/', icon: <FaHome /> },
     { title: 'About', link: '/about', icon: <RiFolderInfoFill /> },
-    { title: 'Services', link: '/services', icon: <FaDownload /> },
-    { title: 'Blogs', link: '/blogs', icon: <ImBlog /> },
     {
       title: 'Contact',
       link: '/contact',
       icon: <RiContactsBook2Fill />,
     },
+    { title: 'Blogs', link: '/blogs', icon: <ImBlog /> },
+    { title: 'Sign in', link: '/signin', icon: <FaDownload /> },
+
   ]
   const activeLink = ({ isActive }) => {
     return {
