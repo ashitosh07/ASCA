@@ -100,7 +100,7 @@ export default function Navbar() {
                   <img
                     src={CA}
                     alt='CA'
-                    style={{ width: 'auto', marginTop: '22px' }}
+                    style={{ width: '200px', }}
                   />
                 </li>
               </ul>

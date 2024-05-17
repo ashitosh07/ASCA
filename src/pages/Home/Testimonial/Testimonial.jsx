@@ -52,7 +52,7 @@ const Testimonial = () => {
   }
   return (
     <div className='parent py-12'>
-      <div
+      {/* <div
         className='mb-8'
         initial='hidden'
         animate={viewDiv && 'visible'}
@@ -62,7 +62,7 @@ const Testimonial = () => {
           Services
         </h1>
         <BottomLine />
-      </div>
+      </div> */}
 
       {/* <div
         ref={ref}

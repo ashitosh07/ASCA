@@ -104,42 +104,6 @@ const Contact = () => {
                   style={{ color: 'black', backgroundColor: 'white' }}
                 />
               </div>
-              <div className='form-group' style={{ marginBottom: '6px' }}>
-                <label htmlFor='phone'>Phone</label>
-                <input
-                  className='input-field'
-                  type='text'
-                  name='phone'
-                  id='phone'
-                  placeholder='Phone'
-                  required
-                  style={{ color: 'black', backgroundColor: 'white' }}
-                />
-              </div>{' '}
-              <div className='form-group'>
-                <label htmlFor='resume'>Please send your resume to</label>
-                <input
-                  className='input-field'
-                  type='email'
-                  name='resume'
-                  id='resume'
-                  placeholder='example@example.com'
-                  required
-                  style={{ color: 'black', backgroundColor: 'white' }}
-                />
-              </div>
-              <div className='form-group'>
-                <label htmlFor='role'>Available Roles</label>
-                <select id='role' name='role' className='input-field' required>
-                  <option value=''>Select a role</option>
-                  <option value='Partner'>Partner</option>
-                  <option value='Manager'>Manager</option>
-                  <option value='Lawyer'>Lawyer</option>
-                  <option value='Articleship'>Articleship</option>
-                  <option value='Internship'>Internship</option>
-                  <option value='Staff'>Staff</option>
-                </select>
-              </div>
               <div className='form-group'>
                 <label htmlFor='Description'>Description</label>
                 <textarea
@@ -193,18 +157,6 @@ const Contact = () => {
             className='flex items-center'
             style={{ display: 'flex', flexDirection: 'row' }}
           >
-            <a href='' target='_blank'>
-              <button className='primary-button'>
-                <span
-                  style={{
-                    color: 'black',
-                    fontWeight: 'bold',
-                  }}
-                >
-                  Login
-                </span>
-              </button>{' '}
-            </a>{' '}
             <a href='' target='_blank'>
               <button className='primary-button' style={{ marginLeft: '25px' }}>
                 <span
