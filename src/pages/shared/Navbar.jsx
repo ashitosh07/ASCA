@@ -168,7 +168,7 @@ export default function Navbar() {
                         <NavLink
                           to={navItem.link}
                           style={activeLink}
-                          className='flex items-center text-white hover:text-#8dce19 duration-300'
+                          className='flex items-center text-white hover:text-[#8dce19] duration-300'
                         >
                           <span className='mr-3'>{navItem.icon}</span>
                           <span>{navItem.title}</span>
