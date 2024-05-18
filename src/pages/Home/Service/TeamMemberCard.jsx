@@ -41,7 +41,7 @@ const TeamMemberCard = ({ image, name, role, body }) => {
               <div className="text-base text-gray-800">{body}</div>
               <button
                 onClick={closeModal}
-                className="mt-4 px-4 py-2 bg-blue-500 text-white rounded-lg"
+                className="mt-4 px-4 py-2 bg-[#8dce19] font-bold text-black rounded-lg"
               >
                 Close
               </button>

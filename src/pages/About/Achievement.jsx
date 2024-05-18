@@ -46,18 +46,48 @@ const Achievement = () => {
     <AtGlance key="10" />,
   ];
   return (
-    <div className=" flex items-center">
-      <button onClick={prevComponent} className=" ">
-        <PreviousIcon />
-      </button>
+    <div className=" flex items-center px-5">
+      {currentIndex === components.length - 1 ? (
+        <button
+          onClick={prevComponent}
+          className=" flex items-center gap-2 hover:scale-105 duration-200"
+        >
+          <PreviousIcon />
+          <p className="text-2xl font-semibold">Prev</p>
+        </button>
+      ) : (
+        currentIndex !== 0 && (
+          <button
+            onClick={prevComponent}
+            className=" hover:border border-[#8dce19] rounded-full p-2 flex items-center justify-center transition-all duration-300"
+          >
+            <PreviousIcon />
+          </button>
+        )
+      )}
       <div
         className={`w-full h-screen flex items-center justify-center transition-transform duration-500 ease-in-out`}
       >
         {components[currentIndex]}
       </div>
-      <button onClick={nextComponent} className=" ">
-        <NextIcon />
-      </button>
+      {currentIndex === 0 ? (
+        <button
+          onClick={nextComponent}
+          className=" flex items-center gap-2 hover:scale-105 duration-200"
+        >
+          <p className="text-2xl font-semibold">Start</p>
+          <NextIcon />
+        </button>
+      ) : (
+        currentIndex !== components.length - 1 && (
+          <button
+            onClick={nextComponent}
+            className=" hover:border border-[#8dce19] rounded-full p-2 flex items-center justify-center transition-all duration-300"
+          >
+            <NextIcon />
+          </button>
+        )
+      )}
     </div>
   );
 };

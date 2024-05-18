@@ -8,7 +8,7 @@ const AboutContents = ({ next, pages }) => {
           <button
             key={index}
             onClick={() => next(index)}
-            className="text-lg font-medium hover:bg-[#8dce19] px-4 flex items-center"
+            className="text-lg font-medium hover:bg-[#8dce19] px-4 flex items-center rounded-lg hover:text-black transition-all duration-300"
           >
             {page.name} ...................................... [{index + 1}]
           </button>
