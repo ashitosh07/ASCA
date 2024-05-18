@@ -43,62 +43,34 @@ const Project = () => {
               }}
             />
           </div>
-          <div
-            initial={{ x: '-100vw' }}
-            animate={{ x: 0 }}
-            transition={{ duration: 1 }}
-          >
-            <h3
-              className='text-4xl font-semibold mb-0'
-              style={{ color: '#060505', margin: '30px 0' }}
-            >
-              User Dashboard: Upload and Task Progress
-            </h3>
+          <div className='parent py-6'>
+            <section className='py-4 px-10 pt-10'>
+              <div className='container mx-auto flex flex-col-reverse lg:flex-row items-center'>
+                <div className='lg:w-1/2 text-center lg:text-left'>
+                  <button
+                    className='bg-green-500 hover:bg-blue-700 text-white py-2 px-4 rounded'
+                    style={{
+                      backgroundColor: '#8dce19',
+                      // fontWeight: '700',
+                      marginBottom: '10px',
+                    }}
+                  >
+                    Join our team
+                  </button>
+                  <h2 className='text-4xl font-bold mb-4 text-black'>
+                    We are hiring
+                  </h2>
 
-            <p
-              className='text-neutral max-w-xl mb-6 font-medium'
-              style={{ color: '#000000', margin: '5% 0' }}
-            >
-              Access the full potential of our user dashboard, where clients can
-              effortlessly upload documents and monitor task progress in
-              real-time. Our secure document upload feature ensures the
-              confidentiality of your information, with support for various file
-              formats. The intuitive interface guarantees a user-friendly
-              experience, allowing you to seamlessly navigate through the system
-              and receive immediate updates on task progress. With robust
-              security measures, including encryption and secure connections,
-              your data is safeguarded at every step. Guidelines for optimal use
-              are provided to assist you in organizing and managing your
-              documents effectively. If you need assistance, our support team is
-              just a message away, ensuring a smooth and secure user experience.
-            </p>
-
-            <div className='lg:flex lg:flex-row flex-col items-center'>
-              <button
-                className='mb-2 mr-4 lg:mb-0 '
-                style={{
-                  backgroundColor: '#8dce19',
-                  borderRadius: '8px',
-                  padding: '8px 20px',
-                  color: '#000000',
-                  fontWeight: '700',
-                }}
-              >
-                <span>Sign in</span>
-              </button>
-
-              <button
-                style={{
-                  backgroundColor: '#000000',
-                  borderRadius: '8px',
-                  padding: '8px 20px',
-                  color: '#FFFFFF',
-                  fontWeight: '500',
-                }}
-              >
-                <span>Sign up</span>
-              </button>
-            </div>
+                  <p className='text-gray-600 mb-8'>
+                    "Great things in a professional firm are never done by one
+                    person; they're done by a team of people."
+                  </p>
+                </div>
+                <div className='md:w-1/2 flex justify-end'>
+                  {/* <img src={hiring} alt='Company logo' className='max-w-md' /> */}
+                </div>
+              </div>
+            </section>
           </div>
         </div>
         <div

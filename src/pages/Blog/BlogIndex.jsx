@@ -6,22 +6,6 @@ const BlogIndex = () => {
   return (
     <>
       <div className='flex flex-col items-center justify-center mt-8 p-8 text-center'>
-        <div>
-          <h1 class='text-2xl font-bold mb-6'>Help section</h1>
-          <div class='flex flex-col items-center justify-center'>
-            <blockquote class='p-4 rounded-lg text-center border-r-4 border-green-500 max-w-xl text-lg'>
-              Committed to matching your unique financial requirements and
-              objectives, our team provides expert assistance tailored for your
-              success.
-            </blockquote>
-          </div>
-          <p class='mt-10 pb-10'>
-            <button class='px-4 py-2 bg-green-500 text-black rounded hover:bg-green-600 transition duration-300 font-bold'>
-              Get started
-            </button>
-          </p>
-        </div>
-
         <div className='border-t border-gray-700 mt-4 mb-6'></div>
         {/* <div
           className='flex flex-col items-center justify-center'
