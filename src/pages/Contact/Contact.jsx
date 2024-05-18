@@ -120,56 +120,20 @@ const Contact = () => {
             </form>
           </div>
         </div>
-        <div
-          className='flex flex-col  items-start justify-center p-6'
-          initial={{ y: 50, opacity: 0 }}
-          animate={viewDiv && 'visible'}
-          variants={contactAnimation}
-        >
-          <h1
-            className='text-3xl font-medium'
-            style={{
-              marginBottom: '20px',
-              textAlign: 'left',
-              fontWeight: 'bold',
-              fontSize: '36px',
-              marginRight: '40%',
-            }}
-          >
-            Simply dummy text of the printing and
-          </h1>
-          <p
-            className='text-1xl font-medium'
-            style={{
-              color: '#B3B3B3',
-              marginBottom: '40px',
-              marginRight: '10%',
-            }}
-          >
-            Lorem Ipsum has been the industry's standard dummy text ever since
-            the 1500s, when an unknown printer took a galley of type and
-            scrambled it to make a type specimen book. It has survived not only
-            five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was
-          </p>
-
-          <div
-            className='flex items-center'
-            style={{ display: 'flex', flexDirection: 'row' }}
-          >
-            <a href='' target='_blank'>
-              <button className='primary-button' style={{ marginLeft: '25px' }}>
-                <span
-                  style={{
-                    color: 'black',
-                    fontWeight: '600',
-                  }}
-                >
-                  Book a Call
-                </span>
-              </button>{' '}
-            </a>
+        <div>
+          <h1 class='text-2xl font-bold mb-6'>Help section</h1>
+          <div class='flex flex-col items-center justify-center'>
+            <blockquote class='p-4 rounded-lg text-center border-r-4 border-green-500 max-w-xl text-lg'>
+              Committed to matching your unique financial requirements and
+              objectives, our team provides expert assistance tailored for your
+              success.
+            </blockquote>
           </div>
+          <p class='mt-10 pb-10'>
+            <button class='px-4 py-2 bg-green-500 text-black rounded hover:bg-green-600 transition duration-300 font-bold'>
+              Get started
+            </button>
+          </p>
         </div>
       </div>
     </div>
