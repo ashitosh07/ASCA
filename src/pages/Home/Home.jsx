@@ -42,7 +42,6 @@ const Home = () => {
         <div className='pt-16'>
           <Banner />
           <About />
-          <Testimonial />
           <Service />
           {/* <Blog /> */}
           {/* <BlogIndex /> */}

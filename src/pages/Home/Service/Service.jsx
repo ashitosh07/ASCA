@@ -25,7 +25,7 @@ const Service = () => {
 
   return (
     <>
-      <div className='parent py-6'>
+      <div className='parent py-4'>
         <div
           className='mb-12 mt-16'
           initial='hidden'
