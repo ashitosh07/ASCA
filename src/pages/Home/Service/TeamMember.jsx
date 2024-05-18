@@ -66,21 +66,6 @@ const TeamMember = () => {
         variants={sectionBodyAnimation}
       >
         {teamMembers.map((member) => (
-          // <div key={member.id} className='text-center'>
-          //   <img
-          //     src={member.img}
-          //     alt={member.name}
-          //     className='w-auto h-auto mx-auto mb-4 hover:rotate-45 cursor-pointer'
-          //     style={{
-          //       padding: '10px', // Adjust the padding value as needed
-          //       border: '2px solid',
-          //       borderImage:
-          //         'linear-gradient(to right, #0a0d0b, #1c3e2a, #237349, #22ad69, #093a24) 2 0',
-          //     }}
-          //   />
-          //   <h2 className='text-2xl font-semibold mb-1'>{member.name}</h2>
-          //   <p className='text-neutral mb-2'>{member.designation}</p>
-          // </div>
           <TeamMemberCard
             key={member.id}
             body={member.body}

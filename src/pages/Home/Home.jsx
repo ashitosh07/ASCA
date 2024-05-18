@@ -47,6 +47,7 @@ const Home = () => {
           {/* <Blog /> */}
           <BlogIndex />
           <Project />
+          <Contact />
 
           {isButtonVisible && (
             <div>
