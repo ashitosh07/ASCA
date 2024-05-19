@@ -1,10 +1,12 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { BsFillArrowRightCircleFill } from 'react-icons/bs'
-export const ServiceCard = ({ title, smallDescription, description }) => {
-  const [showFullDescription, setShowFullDescription] = useState(false)
+import { useNavigate } from 'react-router-dom'
 
-  const toggleDescription = () => {
-    setShowFullDescription(!showFullDescription)
+export const ServiceCard = ({ title, smallDescription, description }) => {
+  const navigate = useNavigate()
+
+  const handleViewMore = () => {
+    navigate('/services')
   }
 
   return (
@@ -19,37 +21,20 @@ export const ServiceCard = ({ title, smallDescription, description }) => {
       }}
     >
       <h2 className='text-white text-lg mb-2'>{title}</h2>
-      {showFullDescription ? (
-        <ul
-          className='text-left text-sm lg:text-base list-disc pl-4'
-          style={{ color: '#B3B3B3' }}
-        >
-          {description.split('\n').map((point, pointIndex) => (
-            <li
-              key={pointIndex}
-              className='break-words'
-              style={{ fontSize: '14px' }}
-            >
-              {point}
-            </li>
-          ))}
-        </ul>
-      ) : (
-        <p
-          className='text-left break-words text-sm lg:text-base'
-          style={{ color: '#B3B3B3' }}
-        >
-          {smallDescription} {/* Displaying the small description */}
-        </p>
-      )}
+      <p
+        className='text-left break-words text-sm lg:text-base'
+        style={{ color: '#B3B3B3' }}
+      >
+        {smallDescription} {/* Displaying the small description */}
+      </p>
       <div className='mt-4'>
         <div
-          className='flex items-center text-sm'
+          className='flex items-center text-sm cursor-pointer'
           style={{ color: '#8dce19' }}
-          onClick={toggleDescription}
+          onClick={handleViewMore}
         >
           <span style={{ fontSize: '16px', marginRight: '10px' }}>
-            {showFullDescription ? 'View Less' : 'View More'}
+            View More
           </span>
           <BsFillArrowRightCircleFill className='icon' />
         </div>

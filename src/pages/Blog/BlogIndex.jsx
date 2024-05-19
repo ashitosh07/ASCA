@@ -141,7 +141,7 @@ const BlogIndex = () => {
                   marginBottom: '10px',
                 }}
               >
-                Join our team
+                {/* Join our team */}
               </button>
               <h2 className='text-4xl font-bold mb-4'> We are hiring</h2>
               <p className='text-gray-600 mb-8'>

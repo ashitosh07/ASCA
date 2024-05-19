@@ -111,37 +111,9 @@ const Test = () => {
   ]
   return (
     <>
-      <div className='parent py-6'>
-        {/* <div
-          className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 p-4'
-          ref={ref}
-          initial='hidden'
-          animate={viewDiv && 'visible'}
-          variants={sectionBodyAnimation}
-          style={{ marginBottom: '80px' }}
-        >
-          {[
-            { text: 'Response Time', count: '< 1 Hour' },
-            { text: 'Resolution Time', count: '< 1 Day' },
-            { text: 'Client Retention Rate', count: '>95%' },
-            { text: 'Compliance Rate', count: '100%' },
-          ].map((item, index) => (
-            <div key={index} className='text-center'>
-              <h2
-                className=' font-semibold mb-1'
-                style={{ fontSize: '43.94px' }}
-              >
-                {item.count}
-              </h2>
-              <p className='text-neutral mb-2' style={{ fontSize: '21.97px' }}>
-                {item.text}
-              </p>
-            </div>
-          ))}
-        </div> */}
-
+      <div className='parent py-4'>
         <div
-          className='mb-12 mt-16'
+          className='mb-12 mt-8'
           initial='hidden'
           animate={viewDiv && 'visible'}
           variants={headingAnimation}
