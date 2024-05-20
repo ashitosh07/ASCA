@@ -34,12 +34,12 @@ const Userboard = () => {
     <>
       <div className="bg-black">
         <div className="max-w-7xl mx-auto lg:px-4 pt-20">
-          <div className="flex items-center justify-center py-20">
+          <div className="flex items-center justify-center px-5 py-20">
             <img src={map} alt="" className="rounded-md" />
           </div>
           {/* <Contact /> */}
           <p className="text-3xl font-bold uppercase text-center px-5">You Can Also find us</p>
-          <div className="py-10 px-10  flex items-center gap-20 justify-center">
+          <div className="py-10 px-10  flex flex-col lg:flex-row items-center gap-20 justify-center">
             {data.map((cont, i) => {
               return (
                 <div key={i} className="flex flex-col gap-5 items-center">

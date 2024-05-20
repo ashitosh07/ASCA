@@ -32,17 +32,20 @@ const Blogs = () => {
             expanded == topic.id ? "block h-full" : "hidden h-0"
           }  `}
         >
-          {topic.subTopics?.map((sub) => {
-            return (
-              <Link
-                key={sub.id}
-                to={`/blogs/topic/${topic.blogTopicId}/sub/${topic.id}/blog/${sub.id}`}
-                className="text-white text-xl font-medium"
-              >
-                {sub.title}
-              </Link>
-            );
-          })}
+          <ul className="list-disc">
+            {topic.subTopics?.map((top) => {
+              return (
+                <li key={top.id}>
+                  <Link
+                    to={`/blogs/topic/${topic.blogTopicId}/sub/${topic.id}/blog/${top.id}`}
+                    className="text-white text-xl font-medium block"
+                  >
+                    {top.title}
+                  </Link>
+                </li>
+              );
+            })}
+          </ul>
         </div>
       </div>
     );
@@ -62,7 +65,7 @@ const Blogs = () => {
   return (
     <div>
       <p className="text-2xl text-center font-bold">All Articles</p>
-      <ul className="space-y-2">
+      <ul className="space-y-2 mt-10">
         {subTopics.map((topic) => (
           <div key={topic.id}>{renderTopic(topic)}</div>
         ))}

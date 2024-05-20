@@ -11,7 +11,6 @@ const Topic = () => {
   useEffect(() => {
     const fetchTopic = () => {
       const foundTopic = blogs.find((b) => b.id == id);
-      console.log(foundTopic);
       setTopic(foundTopic);
       setLoading(false);
     };
@@ -47,17 +46,20 @@ const Topic = () => {
             expanded == topic.id ? "block h-full" : "hidden h-0"
           }  `}
         >
-          {topic.subTopics?.map((top) => {
-            return (
-              <Link
-                key={top.id}
-                to={`/blogs/topic/${id}/sub/${topic.id}/blog/${top.id}`}
-                className="text-white text-xl font-medium"
-              >
-                {top.title}
-              </Link>
-            );
-          })}
+          <ul className="list-disc">
+            {topic.subTopics?.map((top) => {
+              return (
+                <li key={top.id}>
+                  <Link
+                    to={`/blogs/topic/${id}/sub/${topic.id}/blog/${top.id}`}
+                    className="text-white text-xl font-medium block"
+                  >
+                    {top.title}
+                  </Link>
+                </li>
+              );
+            })}
+          </ul>
         </div>
       </div>
     );
@@ -70,7 +72,7 @@ const Topic = () => {
   return (
     <div>
       <p className="text-2xl text-center font-bold">{topic?.title}</p>
-      <ul className="space-y-2">
+      <ul className="space-y-2 mt-10">
         {" "}
         {topic.subTopics.map((topic) => (
           <div key={topic.id}>{renderTopic(topic)}</div>

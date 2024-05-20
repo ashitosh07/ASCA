@@ -1,11 +1,11 @@
 const WeAre = () => {
   return (
-    <div className="flex flex-col lg:flex-row  justify-center gap-10 px-20">
-      <div className="border-b-2 lg:border-r-2 lg:border-b-0  lg:w-[40%]  pr-10 ">
+    <div className="flex flex-col lg:flex-row  justify-center gap-10 px-[5%]  lg:px-20">
+      <div className="border-b-2 lg:border-r-2 lg:border-b-0  lg:w-[40%]   lg:pr-10">
         <p className="uppercase text-xl font-bold mb-12 text-center lg:text-right">we are</p>
-        <div className="flex flex-row lg:flex-col  items-end gap-5">
-          <p className="text-2xl text-[#8dce19] mb-5 font-bold">Honest</p>
-          <p className="text-2xl text-[#8dce19] mb-5 font-bold">Proactive</p>
+        <div className="flex flex-col  items-end gap-2 lg:gap-5">
+          <p className="text-2xl text-[#8dce19] lg:mb-5 font-bold">Honest</p>
+          <p className="text-2xl text-[#8dce19] lg:mb-5 font-bold">Proactive</p>
           <p className="text-2xl text-[#8dce19] mb-5 font-bold">Analytical</p>
         </div>
       </div>
