@@ -1,8 +1,8 @@
 import ourBackground from "../../assets/blogcard1.png";
 const OurBackground = () => {
   return (
-    <div className="flex  justify-center gap-20 px-20">
-      <div className="w-[50%]">
+    <div className="flex flex-col lg:flex-row   justify-center  gap-10 lg:gap-20 px-[5%] lg:px-20">
+      <div className="lg:w-[50%]">
         <p className="text-xl font-bold text-[#8dce19] mb-5">Our Background</p>
         <p>
           Established in 2018, we are a Chartered Accountancy firm that began
@@ -22,7 +22,7 @@ const OurBackground = () => {
           decisions that will positively impact their financial future.
         </p>
       </div>
-      <div className="w-[50%]">
+      <div className="lg:w-[50%]">
         <div className="flex gap-2 items-center">
           <img
             src={ourBackground}

@@ -46,48 +46,90 @@ const Achievement = () => {
     <AtGlance key="10" />,
   ];
   return (
-    <div className=" flex items-center px-5">
-      {currentIndex === components.length - 1 ? (
-        <button
-          onClick={prevComponent}
-          className=" flex items-center gap-2 hover:scale-105 duration-200"
-        >
-          <PreviousIcon />
-          <p className="text-2xl font-semibold">Prev</p>
-        </button>
-      ) : (
-        currentIndex !== 0 && (
+    <div className=" flex flex-col lg:flex-row items-center px-5">
+      <div className="hidden lg:block">
+        {currentIndex === components.length - 1 ? (
           <button
             onClick={prevComponent}
-            className=" hover:border border-[#8dce19] rounded-full p-2 flex items-center justify-center transition-all duration-300"
+            className=" flex items-center gap-2 hover:scale-105 duration-200"
           >
             <PreviousIcon />
+            <p className="text-2xl font-semibold">Prev</p>
           </button>
-        )
-      )}
+        ) : (
+          currentIndex !== 0 && (
+            <button
+              onClick={prevComponent}
+              className=" hover:border border-[#8dce19] rounded-full p-2 flex items-center justify-center transition-all duration-300"
+            >
+              <PreviousIcon />
+            </button>
+          )
+        )}
+      </div>
       <div
-        className={`w-full h-screen flex items-center justify-center transition-transform duration-500 ease-in-out`}
+        className={`w-full h-fit pt-20 lg:h-screen flex items-center justify-center transition-transform duration-500 ease-in-out`}
       >
         {components[currentIndex]}
       </div>
-      {currentIndex === 0 ? (
-        <button
-          onClick={nextComponent}
-          className=" flex items-center gap-2 hover:scale-105 duration-200"
-        >
-          <p className="text-2xl font-semibold">Start</p>
-          <NextIcon />
-        </button>
-      ) : (
-        currentIndex !== components.length - 1 && (
+      <div className="hidden lg:block">
+        {currentIndex === 0 ? (
           <button
             onClick={nextComponent}
-            className=" hover:border border-[#8dce19] rounded-full p-2 flex items-center justify-center transition-all duration-300"
+            className=" flex items-center gap-2 hover:scale-105 duration-200"
           >
+            <p className="text-2xl font-semibold">Start</p>
             <NextIcon />
           </button>
-        )
-      )}
+        ) : (
+          currentIndex !== components.length - 1 && (
+            <button
+              onClick={nextComponent}
+              className=" hover:border border-[#8dce19] rounded-full p-2 flex items-center justify-center transition-all duration-300"
+            >
+              <NextIcon />
+            </button>
+          )
+        )}
+      </div>
+      <div className=" flex  lg:hidden justify-center px-5 py-4 gap-5 items-center">
+        {currentIndex === components.length - 1 ? (
+          <button
+            onClick={prevComponent}
+            className=" flex items-center gap-2 hover:scale-105 transition-all duration-200"
+          >
+            <PreviousIcon />
+            <p className="text-2xl font-semibold">Prev</p>
+          </button>
+        ) : (
+          currentIndex !== 0 && (
+            <button
+              onClick={prevComponent}
+              className=" hover:border-[#8dce19] border-black border rounded-full p-2 flex items-center justify-center transition-all duration-300"
+            >
+              <PreviousIcon />
+            </button>
+          )
+        )}
+        {currentIndex === 0 ? (
+          <button
+            onClick={nextComponent}
+            className=" flex items-center gap-2 hover:scale-105 duration-200"
+          >
+            <p className="text-2xl font-semibold">Start</p>
+            <NextIcon />
+          </button>
+        ) : (
+          currentIndex !== components.length - 1 && (
+            <button
+              onClick={nextComponent}
+              className="hover:border-[#8dce19] border-black border rounded-full p-2 flex items-center justify-center transition-all duration-300"
+            >
+              <NextIcon />
+            </button>
+          )
+        )}
+      </div>
     </div>
   );
 };

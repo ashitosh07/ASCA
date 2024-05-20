@@ -1,6 +1,6 @@
 const AtGlance = () => {
   return (
-    <div className="flex flex-col  justify-center items-center px-20">
+    <div className="flex flex-col  justify-center items-center px-[5%] lg:px-20">
       <p className="text-4xl font-semibold mb-5">At Glance</p>
       <p className="mb-3 text-center">
         <span className="text-[#8dce19] capitalize block text-center text-2xl">Our mission</span> To

@@ -1,6 +1,6 @@
 const WhatWeDo = () => {
   return (
-    <div className="flex items-center justify-center flex-col px-20">
+    <div className="flex items-center justify-center flex-col  px-[5%] lg:px-20">
       <p className="text-xl font-semibold mb-10 text-[#8dce19]">What We Do</p>
       <p className="text-center my-6 text-3xl font-bold">
         We provide comprehensive financial services, ensuring ethical standards

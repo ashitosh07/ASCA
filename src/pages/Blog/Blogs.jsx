@@ -32,10 +32,14 @@ const Blogs = () => {
             expanded == topic.id ? "block h-full" : "hidden h-0"
           }  `}
         >
-          {topic.subTopics?.map((topic) => {
+          {topic.subTopics?.map((sub) => {
             return (
-              <Link key={topic.id} to={`/blogs/${topic.id}`} className="text-white text-xl font-medium">
-                {topic.title}
+              <Link
+                key={sub.id}
+                to={`/blogs/topic/${topic.blogTopicId}/sub/${topic.id}/blog/${sub.id}`}
+                className="text-white text-xl font-medium"
+              >
+                {sub.title}
               </Link>
             );
           })}
@@ -44,11 +48,13 @@ const Blogs = () => {
     );
   };
 
-
-
   const subTopics = blogs.reduce((acc, topic) => {
     if (topic.subTopics) {
-      acc.push(...topic.subTopics);
+      const updatedSubTopics = topic.subTopics.map((subTopic) => ({
+        ...subTopic,
+        blogTopicId: topic.id,
+      }));
+      acc.push(...updatedSubTopics);
     }
     return acc;
   }, []);

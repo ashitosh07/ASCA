@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 const AboutContents = ({ next, pages }) => {
   return (
-    <div className="flex  items-center h-full justify-center gap-20">
+    <div className="flex  flex-col lg:flex-row items-center h-full justify-center gap-20">
       <p className="text-7xl font-bold">This is ASCA</p>
       <div className="flex flex-col items-start">
         {pages.map((page, index) => (
