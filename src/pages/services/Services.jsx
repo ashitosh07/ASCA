@@ -398,7 +398,7 @@ const Services = () => {
                   >
                     <p className="font-semibold">{subService.title}</p>
                     <div
-                      className={`absolute  z-20 pl-10 bg-black top-0 w-[200px]  md:w-[230px] lg:w-[250px] left-[5%] md:left-[30%] lg:left-[50%]  p-2 border rounded-lg ${
+                      className={`absolute  z-20 pl-10 bg-black top-0 w-[200px]  md:w-[230px] lg:w-[250px] left-[5%] md:left-[30%] lg:left-[40%]  p-2 border rounded-lg ${
                         hovered === subService.id ? "block" : "hidden"
                       }`}
                     >
