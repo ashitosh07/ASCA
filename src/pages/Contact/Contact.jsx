@@ -171,7 +171,10 @@ const Contact = () => {
         </div>
         <div className='flex flex-col items-center justify-center'>
           <h1 className='text-2xl  mb-6'>Help section</h1>
-          <blockquote className='p-4 rounded-lg text-center border-r-4 border-green-500 max-w-xl text-lg'>
+          <blockquote
+            className='p-4 rounded-lg text-center border-r-4  max-w-xl text-lg'
+            style={{ borderColor: '#8dce19' }}
+          >
             Committed to matching your unique financial requirements and
             objectives, our team provides expert assistance tailored for your
             success.
