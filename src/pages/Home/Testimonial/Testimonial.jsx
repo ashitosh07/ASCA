@@ -58,7 +58,7 @@ const Testimonial = () => {
         animate={viewDiv && 'visible'}
         variants={headingAnimation}
       >
-        <h1 className='text-4xl font-semibold text-left text-white ml-8'>
+        <h1 className='text-4xl  text-left text-white ml-8'>
           Services
         </h1>
         <BottomLine />
@@ -94,7 +94,7 @@ const Testimonial = () => {
                     paddingRight: '20%',
                   }}
                 >
-                  <h2 className='text-left text-white text-2xl font-bold mb-2'>
+                  <h2 className='text-left text-white text-2xl  mb-2'>
                     {review.title}
                   </h2>
                   <p className='text-left text-gray-300 mb-4'>

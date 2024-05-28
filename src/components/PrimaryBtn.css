@@ -1,6 +1,6 @@
 .primary-button {
   padding: 4px 24px;
-  font-weight: bold;
+  /* font-weight: bold; */
   border-radius: 12px;
   text-transform: uppercase;
   display: flex;
@@ -32,16 +32,16 @@
 
 .primary-button::after {
   transition: all 0.5s ease;
-  background-color: #313131;
+  /* background-color: #313131; */
 }
 
 .primary-button::before {
   transition: all 0.5s ease-out;
-  background: #8dce19;
+  /* background: #8dce19; */
 }
 
 .primary-button:hover {
-  color: #8dce19;
+  color: #ffffff;
   transform: translateY(-5px);
 }
 

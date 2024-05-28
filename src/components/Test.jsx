@@ -68,21 +68,21 @@ const Test = () => {
 
   const cardData = [
     {
-      title: 'STRATEGIC GROWTH & GOVERNANCE',
+      title: 'Strategic Growth & Goverance',
       smallDescription:
         'Steering organizations towards enduring success through informed decision-making and direction.',
       description:
         'Strategic Planning and Business Strategy	\n Corporate Governance\n Legal Entity Formation\n Compliance and Regulatory\n Additional Services',
     },
     {
-      title: 'AUDIT AND ASSURANCE',
+      title: 'Audit and Assurance',
       smallDescription:
         'Ensuring financial integrity and compliance through meticulous examination and verification.',
       description:
         'Statutory Audit under Indian and International GAAP \n Internal Audit \n Agreed Upon Procedures \n Investigation and Special Audits \n Review Services',
     },
     {
-      title: 'TECHNOLOGY AND PROCESS OPTIMISATION		',
+      title: 'Technology and Process Optimisation		',
       smallDescription:
         'Enhancing productivity and efficiency through customised, innovative tools and streamlined workflows.',
       description:
@@ -118,7 +118,7 @@ const Test = () => {
           animate={viewDiv && 'visible'}
           variants={headingAnimation}
         >
-          <h1 className='text-4xl font-semibold text-center'>The Team</h1>
+          <h1 className='text-4xl  text-center'>The Team</h1>
           {/* <BottomLine /> */}
         </div>
 
@@ -142,7 +142,7 @@ const Test = () => {
                     'linear-gradient(to right, #0a0d0b, #1c3e2a, #237349, #22ad69, #093a24) 2 0',
                 }}
               />
-              <h2 className='text-2xl font-semibold mb-1'>{member.name}</h2>
+              <h2 className='text-2xl mb-1'>{member.name}</h2>
               <p className='text-neutral mb-2'>{member.designation}</p>
               {/* <div
                 style={{
@@ -202,7 +202,7 @@ const Test = () => {
               >
                 One-Stop Solution
               </button>
-              <h2 className='text-4xl font-bold mb-4'> Our Expertise</h2>
+              <h2 className='text-4xl mb-4'> Our Expertise</h2>
               <p className='text-gray-600 mb-8'>
                 We offer a comprehensive suite of services to empower your
                 financial success.

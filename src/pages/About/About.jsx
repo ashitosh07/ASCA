@@ -7,7 +7,7 @@ import badges from './badges'
 import Aboutme from '../../assets/Aboutme.png'
 const h1Styles = {
   color: 'black',
-  fontWeight: 'bold',
+  // fontWeight: 'bold',
   fontSize: '36px',
 }
 
@@ -30,14 +30,14 @@ const About = () => {
         <div className='grid grid-cols-1 md:grid-cols-1 gap-8'>
           <p style={{ ...h1Styles, ...mediaQueryStyles }}>ABOUT ASCA</p>
           <div className='centered-container'>
-            <p className='text-neutral font-medium'>
+            <p className='text-black font-medium'>
               In a world where financial intricacies can leave people feeling
               lost, Chartered Accountants serve as indispensable guides, helping
               both individuals and businesses maneuver through the complex
               terrain of finance with confidence and clarity.
             </p>
             <br />
-            <p className='text-neutral font-medium'>
+            <p className='text-black font-medium'>
               At ASCA, we embrace a vision that transcends the traditional scope
               of Chartered Accountancy and go beyond just number crunching or
               preparing tax returns.Our team, a blend of experienced experts and
@@ -45,7 +45,7 @@ const About = () => {
               meet financial and legal requirements.
             </p>
             <br />
-            <p className='text-neutral font-medium'>
+            <p className='text-black font-medium'>
               With a foundation built on integrity, we offer comprehensive
               financial solutions tailored to your unique needs—from strategic
               planning to the navigating complexities of regulatory
@@ -55,7 +55,7 @@ const About = () => {
               decisions
             </p>
             <br />
-            <p className='text-neutral font-medium pb-8'>
+            <p className='text-black font-medium pb-8'>
               Your trust in us marks the beginning of a lasting relationship,
               and we're excited to embark on this journey with you.
             </p>
@@ -70,7 +70,7 @@ const About = () => {
           style={{
             color: 'black',
             fontSize: '26.73px',
-            fontWeight: 'bold',
+            // fontWeight: 'bold',
             marginTop: '12px',
           }}
         >
@@ -87,7 +87,7 @@ const About = () => {
                   alt={badge.title}
                   className='mx-auto mb-2'
                 />
-                <h2 className='badge-title text-#8dce19 font-semibold'>
+                <h2 className='badge-title text-#8dce19 '>
                   {badge.title}
                 </h2>
               </div>

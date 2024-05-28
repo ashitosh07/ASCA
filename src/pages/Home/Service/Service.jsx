@@ -32,7 +32,7 @@ const Service = () => {
           animate={viewDiv && 'visible'}
           variants={headingAnimation}
         >
-          <h1 className='text-4xl font-semibold text-center'>The Team</h1>
+          <h1 className='text-4xl  text-center'>The Team</h1>
           {/* <BottomLine /> */}
         </div>
         <TeamMember />

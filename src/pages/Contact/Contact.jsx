@@ -160,7 +160,8 @@ const Contact = () => {
               <div className='form-group'>
                 <button
                   type='submit'
-                  className='px-4 py-2 bg-green-500 text-black rounded hover:bg-green-600 transition duration-300 font-bold'
+                  className='px-4 py-2  text-black rounded hover:bg-green-600 transition duration-300 '
+                  style={{ backgroundColor: '#8dce19' }}
                 >
                   Submit
                 </button>
@@ -169,14 +170,17 @@ const Contact = () => {
           </div>
         </div>
         <div className='flex flex-col items-center justify-center'>
-          <h1 className='text-2xl font-bold mb-6'>Help section</h1>
+          <h1 className='text-2xl  mb-6'>Help section</h1>
           <blockquote className='p-4 rounded-lg text-center border-r-4 border-green-500 max-w-xl text-lg'>
             Committed to matching your unique financial requirements and
             objectives, our team provides expert assistance tailored for your
             success.
           </blockquote>
           <p className='mt-10 pb-10'>
-            <button className='px-4 py-2 bg-green-500 text-black rounded hover:bg-green-600 transition duration-300 font-bold'>
+            <button
+              className='px-4 py-2  text-black rounded hover:bg-green-600 transition duration-300 '
+              style={{ backgroundColor: '#8dce19' }}
+            >
               Get started
             </button>
           </p>

@@ -143,7 +143,7 @@ const BlogIndex = () => {
               >
                 {/* Join our team */}
               </button>
-              <h2 className='text-4xl font-bold mb-4'> We are hiring</h2>
+              <h2 className='text-4xl  mb-4'> We are hiring</h2>
               <p className='text-gray-600 mb-8'>
                 "Great things in a professional firm are never done by one
                 person; they're done by a team of people."

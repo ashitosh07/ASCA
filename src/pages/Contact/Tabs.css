@@ -92,7 +92,7 @@
 }
 
 .detail-label {
-  font-weight: bold;
+  font-weight: ;
 }
 
 button {
@@ -126,10 +126,6 @@ button {
 }
 
 /* Add styling for the text */
-p {
-  font-weight: bold;
-  /* Set your desired text color */
-}
 
 @media (max-width: 568px) {
   .details-grid {

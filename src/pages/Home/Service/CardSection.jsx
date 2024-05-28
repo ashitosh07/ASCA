@@ -5,21 +5,21 @@ import { ServiceCard } from './ServiceCard'
 const CardSection = () => {
   const cardData = [
     {
-      title: 'STRATEGIC GROWTH & GOVERNANCE',
+      title: 'Strategic Growth & Goverance',
       smallDescription:
         'Steering organizations towards enduring success through informed decision-making and direction.',
       description:
         'Strategic Planning and Business Strategy	\n Corporate Governance\n Legal Entity Formation\n Compliance and Regulatory\n Additional Services',
     },
     {
-      title: 'AUDIT AND ASSURANCE',
+      title: 'Audit and Assurance',
       smallDescription:
         'Ensuring financial integrity and compliance through meticulous examination and verification.',
       description:
         'Statutory Audit under Indian and International GAAP \n Internal Audit \n Agreed Upon Procedures \n Investigation and Special Audits \n Review Services',
     },
     {
-      title: 'TECHNOLOGY AND PROCESS OPTIMISATION		',
+      title: 'Technology and Process Optimisation',
       smallDescription:
         'Enhancing productivity and efficiency through customised, innovative tools and streamlined workflows.',
       description:
@@ -33,17 +33,17 @@ const CardSection = () => {
         'GST Registration \n GST Compliance \n GST Litigation \n Input Tax Credit \n Others',
     },
     {
-      title: 'Specialized Services',
-      smallDescription:
-        'Offering expert guidance and management for tax obligations with optimum planning. ',
-      description:
-        'Valuation & Due Diligence \n Start-up and Early Stage Support \n Insolvency and Debt Resolution	 \n Wealth and Legacy Planning	\n Corporate Finance	 \n Education and Training \n Labour Law	 ',
-    },
-    {
       title: 'Income Tax',
-      smallDescription: 'Offering services which require attention to detail.',
+      smallDescription:
+        'Offering expert guidance and management for tax obligations with optimum planning. .',
       description:
         'Income Tax  \n Tax Compliance and Filing \n Tax Compliance and Filing \n Income Tax Litigation Support \n Others',
+    },
+    {
+      title: 'Specialized Services',
+      smallDescription: 'Offering services which require attention to detail. ',
+      description:
+        'Valuation & Due Diligence \n Start-up and Early Stage Support \n Insolvency and Debt Resolution	 \n Wealth and Legacy Planning	\n Corporate Finance	 \n Education and Training \n Labour Law	 ',
     },
   ]
   return (
