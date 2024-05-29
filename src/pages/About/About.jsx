@@ -26,39 +26,28 @@ const About = () => {
       className='parent pt-16 my-16'
       style={{ backgroundColor: 'white', borderRadius: '40px' }}
     >
-      <div className='flex justify-center items-center p-4'>
+      <div className='flex justify-center items-center p-8'>
         <div className='grid grid-cols-1 md:grid-cols-1 gap-8'>
           <p style={{ ...h1Styles, ...mediaQueryStyles }}>ABOUT ASCA</p>
           <div className='centered-container'>
-            <p className='text-black font-medium'>
-              In a world where financial intricacies can leave people feeling
-              lost, Chartered Accountants serve as indispensable guides, helping
-              both individuals and businesses maneuver through the complex
-              terrain of finance with confidence and clarity.
-            </p>
             <br />
             <p className='text-black font-medium'>
               At ASCA, we embrace a vision that transcends the traditional scope
               of Chartered Accountancy and go beyond just number crunching or
-              preparing tax returns.Our team, a blend of experienced experts and
-              dynamic new talent, is deeply committed to crafting solutions to
-              meet financial and legal requirements.
+              preparing tax returns. Our team, a blend of experienced experts
+              and dynamic new talent, is deeply committed to crafting solutions
+              to meet financial and legal requirements.
             </p>
             <br />
             <p className='text-black font-medium'>
               With a foundation built on integrity, we offer comprehensive
               financial solutions tailored to your unique needs—from strategic
-              planning to the navigating complexities of regulatory
-              compliance.Founded on principles of unwavering transparency,
-              relentless diligence, and unparalleled precision, we guarantee
-              your thorough comprehension, leading you to make informed
-              decisions
+              planning to the navigating complexities of regulatory compliance.
+              Founded on principles of unwavering transparency, relentless
+              diligence, and unparalleled precision, we guarantee your thorough
+              comprehension, leading you to make informed decisions.
             </p>
             <br />
-            <p className='text-black font-medium pb-8'>
-              Your trust in us marks the beginning of a lasting relationship,
-              and we're excited to embark on this journey with you.
-            </p>
           </div>
         </div>
       </div>

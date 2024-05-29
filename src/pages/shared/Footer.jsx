@@ -45,10 +45,8 @@ const Footer = () => {
                 className='text-left'
                 style={{ color: '#B3B3B3', fontSize: '16px' }}
               >
-                We're a ISO 9001:2015 certified, reputable CA firm with
-                expertise in tax planning, audit services and financial
-                consulting, serving businesses and individuals with tailored
-                solutions.
+                9th cross rd, Katlerigudda Bejai, Kapikad, Mangaluru, Karnataka-
+                575006
               </p>
             </div>
 
@@ -66,10 +64,18 @@ const Footer = () => {
                 Services
               </a>
               <a
-                className='text-white hover:text-#8dce19 duration-300'
+                className='text-white hover:text-#8dce19 duration-300 mb-2'
                 href='#'
               >
                 Contact
+              </a>
+              <a
+                href='#'
+                className='text-white duration-300'
+                onmouseover="this.style.color='#8dce19';"
+                onmouseout="this.style.color='white';"
+              >
+                Careers
               </a>
             </div>
 
