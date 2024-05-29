@@ -31,7 +31,7 @@ const About = () => {
           <p style={{ ...h1Styles, ...mediaQueryStyles }}>ABOUT ASCA</p>
           <div className='centered-container'>
             <br />
-            <p className='text-black font-medium'>
+            <p className='text-black '>
               At ASCA, we embrace a vision that transcends the traditional scope
               of Chartered Accountancy and go beyond just number crunching or
               preparing tax returns. Our team, a blend of experienced experts
@@ -39,7 +39,7 @@ const About = () => {
               to meet financial and legal requirements.
             </p>
             <br />
-            <p className='text-black font-medium'>
+            <p className='text-black '>
               With a foundation built on integrity, we offer comprehensive
               financial solutions tailored to your unique needs—from strategic
               planning to the navigating complexities of regulatory compliance.

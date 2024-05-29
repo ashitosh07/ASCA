@@ -19,7 +19,7 @@ const TeamMemberCard = ({ image, name, role, body }) => {
         </div>
         <div className='mt-4'>
           <h3 className='text-lg '>{name}</h3>
-          <p className='text-sm text-gray-600'>{role}</p>
+          <p className='text-sm text-white-600'>{role}</p>
         </div>
       </div>
 
