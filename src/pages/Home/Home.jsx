@@ -62,7 +62,7 @@ const Home = () => {
                 ref={helpMessageRef}
                 className='fixed bottom-16 right-4 md:bottom-24 md:right-8 bg-white text-gray-700 p-3 rounded-md shadow-md'
               >
-                <p>How may I help you?</p>
+                <p>Whatsapp</p>
               </div>
             )}
           </div>
