@@ -40,7 +40,7 @@ const Test = () => {
     {
       id: 2,
       img: team2,
-      name: 'Frenil Douza',
+      name: 'Frenil Dsouza',
       designation: 'ACA, B. Com, FAFD',
       linkedin: 'https://www.linkedin.com/janesmith',
       instagram: 'https://www.instagram.com/janesmith',
@@ -68,7 +68,7 @@ const Test = () => {
 
   const cardData = [
     {
-      title: 'Strategic Growth & Goverance',
+      title: 'Strategic Growth & Governance',
       smallDescription:
         'Steering organizations towards enduring success through informed decision-making and direction.',
       description:
@@ -203,7 +203,7 @@ const Test = () => {
                 One-Stop Solution
               </button>
               <h2 className='text-4xl mb-4'> Our Expertise</h2>
-              <p className='text-gray-600 mb-8'>
+              <p className='text-white-600 mb-8'>
                 We offer a comprehensive suite of services to empower your
                 financial success.
               </p>

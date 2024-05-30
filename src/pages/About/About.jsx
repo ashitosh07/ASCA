@@ -23,17 +23,17 @@ const About = () => {
   }
   return (
     <div
-      className='parent pt-16 my-16'
+      className='parent pt-6 my-16'
       style={{ backgroundColor: 'white', borderRadius: '40px' }}
     >
-      <div className='flex justify-center items-center p-8'>
-        <div className='grid grid-cols-1 md:grid-cols-1 gap-8'>
+      <div className='flex justify-center items-center p-6'>
+        <div className='grid grid-cols-1 md:grid-cols-1 gap-6'>
           <p style={{ ...h1Styles, ...mediaQueryStyles }}>ABOUT ASCA</p>
           <div className='centered-container'>
             <br />
             <p className='text-black '>
               At ASCA, we embrace a vision that transcends the traditional scope
-              of Chartered Accountancy and go beyond just number crunching or
+              of Chartered Accountants and go beyond just number crunching or
               preparing tax returns. Our team, a blend of experienced experts
               and dynamic new talent, is deeply committed to crafting solutions
               to meet financial and legal requirements.
@@ -54,8 +54,8 @@ const About = () => {
       {/* add a img only for mobile */}
       <div className='md:hidden text-center p-4'>
         {/* Add your mobile-only image here */}
-        <img src={Aboutme} alt='Mobile Only' className='mx-auto' />
-        <h1
+        {/* <img src={Aboutme} alt='Mobile Only' className='mx-auto' /> */}
+        {/* <h1
           style={{
             color: 'black',
             fontSize: '26.73px',
@@ -64,7 +64,7 @@ const About = () => {
           }}
         >
           Anwesh Shetty
-        </h1>
+        </h1> */}
       </div>
       {/* <div style={{ margin: '3rem 0 4rem 0', padding: '0px 0 80px 0' }}>
         <div className='grid grid-cols-1 md:grid-cols-4 gap-8'>

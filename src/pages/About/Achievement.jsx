@@ -18,7 +18,7 @@ const Achievement = () => {
     { name: 'What WeDo' },
     { name: 'We Are' },
     { name: 'Who We Are' },
-    { name: 'Who We Server' },
+    { name: 'Who We Serve' },
     { name: 'At Glance' },
   ]
 

@@ -5,7 +5,7 @@ const OurBackground = () => {
       <div className='lg:w-[50%]'>
         <p className='text-xl  text-[#8dce19] mb-5'>Our Background</p>
         <p>
-          Established in 2018, we are a Chartered Accountancy firm that began
+          Established in 2018, we are a Chartered Accountants firm that began
           with the vision of an organization that is ethically grounded and
           precision-driven. Operating from Mangalore and Bangalore, our firm
           prides itself on the financial acumen and technological advancements

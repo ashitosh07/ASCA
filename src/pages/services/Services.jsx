@@ -5,7 +5,7 @@ const Services = () => {
   const [hovered, setHovered] = useState(null)
   const services = [
     {
-      title: 'Strategic Growth & Goverance',
+      title: 'Strategic Growth & Governance',
       services: [
         {
           id: 11,

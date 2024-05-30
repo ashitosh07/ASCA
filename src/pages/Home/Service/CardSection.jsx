@@ -5,7 +5,7 @@ import { ServiceCard } from './ServiceCard'
 const CardSection = () => {
   const cardData = [
     {
-      title: 'Strategic Growth & Goverance',
+      title: 'Strategic Growth & Governance',
       smallDescription:
         'Steering organizations towards enduring success through informed decision-making and direction.',
       description:
