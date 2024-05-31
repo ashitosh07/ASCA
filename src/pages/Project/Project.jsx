@@ -64,7 +64,7 @@ const Project = () => {
     <>
       <div
         style={{
-          backgroundColor: 'black',
+          backgroundColor: 'white',
           borderRadius: '30px',
           padding: '20px',
         }}
@@ -81,7 +81,7 @@ const Project = () => {
               alt='Decorative'
               className='mx-auto'
               style={{
-                width: '70%',
+                width: '90%',
                 height: 'auto',
                 marginTop: '20px',
               }}
@@ -99,8 +99,8 @@ const Project = () => {
                 >
                   Support
                 </button>
-                <h2 className='text-4xl  mb-4 text-white'>We are hiring</h2>
-                <p className='text-white-600 mb-8'>
+                <h2 className='text-4xl  mb-4 text-black'>We are hiring</h2>
+                <p className='text-gray-600 mb-8'>
                   "If there’s something you would require any assistance with,
                   you may drop your enquiries to" – *Email Id*
                 </p>
