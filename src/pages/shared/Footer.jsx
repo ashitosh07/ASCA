@@ -45,8 +45,27 @@ const Footer = () => {
                 className='text-left'
                 style={{ color: '#B3B3B3', fontSize: '16px' }}
               >
-                9th cross rd, Katlerigudda Bejai, Kapikad, Mangaluru, Karnataka-
-                575006
+                362, #rd Floor, 7th Cross Rd, 6th Block, 1st Block, Jayanagar
+                1st Block,Jayanagar,Bangalore-560011 -Bangalore Address
+              </p>{' '}
+              <p
+                className='text-left mt-2'
+                style={{ color: '#B3B3B3', fontSize: '16px' }}
+              >
+                ASCA, 2-7-432/4, Kottara Cross Bejai,Mangalore,Karnatak - 575004
+                - Mangalore Address
+              </p>
+              <p
+                className='text-left mt-2'
+                style={{ color: '#B3B3B3', fontSize: '16px' }}
+              >
+                9019905527
+              </p>
+              <p
+                className='text-left mt-2'
+                style={{ color: '#B3B3B3', fontSize: '16px' }}
+              >
+                ascafirm@gmail.com
               </p>
             </div>
 

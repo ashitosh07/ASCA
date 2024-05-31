@@ -42,7 +42,7 @@ const Userboard = () => {
           <div className='py-10 px-10 flex flex-col lg:flex-row items-center gap-10 justify-center'>
             {/* Google Maps Iframes */}
             <div className='map-container'>
-              <iframe
+              {/* <iframe
                 src='https://www.google.com/maps/embed?pb=YOUR_HEAD_OFFICE_EMBED_URL'
                 width='600'
                 height='450'
@@ -50,18 +50,27 @@ const Userboard = () => {
                 loading='lazy'
                 referrerPolicy='no-referrer-when-downgrade'
                 className='rounded-md'
+              ></iframe> */}
+              <iframe
+                src='https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3888.535197715614!2d77.585601!3d12.937567999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTLCsDU2JzE1LjIiTiA3N8KwMzUnMDguMiJF!5e0!3m2!1sen!2sin!4v1717146334883!5m2!1sen!2sin'
+                width='600'
+                height='450'
+                // style='border:0;'
+                allowfullscreen=''
+                loading='lazy'
+                referrerpolicy='no-referrer-when-downgrade'
               ></iframe>
               <p className='text-center mt-2'>Head Office</p>
             </div>
             <div className='map-container'>
               <iframe
-                src='https://www.google.com/maps/embed?pb=YOUR_BRANCH_OFFICE_EMBED_URL'
+                src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124453.65062639558!2d74.75922904217691!3d12.89636440867295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba35b0b37d4f153%3A0xbaf859c5b042fa2c!2sASCA%20-%20Anwesh%20Shetty%20Chartered%20Accountants!5e0!3m2!1sen!2sin!4v1717146477571!5m2!1sen!2sin'
                 width='600'
                 height='450'
-                allowFullScreen=''
+                // style='border:0;'
+                allowfullscreen=''
                 loading='lazy'
-                referrerPolicy='no-referrer-when-downgrade'
-                className='rounded-md'
+                referrerpolicy='no-referrer-when-downgrade'
               ></iframe>
               <p className='text-center mt-2'>Branch Office</p>
             </div>
