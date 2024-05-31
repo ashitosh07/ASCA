@@ -64,7 +64,7 @@ const TeamMemberCard = ({ image, name, role, body }) => {
               <div className='text-base text-white-800'>{body}</div>
               <button
                 onClick={closeModal}
-                className='mt-4 px-4 py-2 bg-[#8dce19]  text-black rounded-lg flex items-center justify-center'
+                className='mt-4 px-2 py-1 bg-[#8dce19]  text-black rounded-lg flex items-center justify-center'
               >
                 Close
                 <svg

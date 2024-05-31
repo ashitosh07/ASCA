@@ -95,7 +95,7 @@ const TeamMember = () => {
             </p>
           </div>
           <div className='md:w-1/2 flex justify-end'>
-            <img src={hiring} alt='Company logo' className='max-w-md' />
+            {/* <img src={hiring} alt='Company logo' className='max-w-md' /> */}
           </div>
         </div>
       </section>
