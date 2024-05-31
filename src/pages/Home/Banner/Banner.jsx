@@ -10,10 +10,11 @@ const Banner = () => {
     <div className='parent min-h-[90vh] lg:flex lg:flex-row items-center justify-between pt-8'>
       <div className='w-full lg:w-1/2 p-4'>
         <h1
-          className='text-4xl mb-4'
+          className='text-4xl mb-0'
           style={{
             fontSize: '52px',
             '@media (max-width: 640px)': {
+              lineHeight: '3.5rem',
               fontSize: '46px',
             },
           }}
