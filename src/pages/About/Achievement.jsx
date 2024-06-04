@@ -13,9 +13,9 @@ import WhoWeAre from './WhoWeAre'
 const Achievement = () => {
   const pages = [
     { name: 'Our Story' },
-    { name: 'Our Background' },
+    // { name: 'Our Background' },
     { name: 'Why We Exist' },
-    { name: 'What WeDo' },
+    { name: 'What We Do' },
     { name: 'We Are' },
     { name: 'Who We Are' },
     { name: 'Who We Serve' },
@@ -37,7 +37,7 @@ const Achievement = () => {
   const components = [
     <AboutContents key='1' next={(i) => setCurrentIndex(i)} pages={pages} />,
     <OurStory key='2' />,
-    <OurBackground key={'3'} />,
+    // <OurBackground key={'3'} />,
     <WhyWeExist key='4' />,
     <WhatWeDo key='5' />,
     <WeAre key='6' />,

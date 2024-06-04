@@ -102,7 +102,7 @@ const Project = () => {
                 <h2 className='text-4xl  mb-4 text-black'>We are hiring</h2>
                 <p className='text-gray-600 mb-8'>
                   "If there’s something you would require any assistance with,
-                  you may drop your enquiries to" – *Email Id*
+                  you may drop your enquiries to" – ascafirm@gmail.com
                 </p>
                 <div
                   className=''

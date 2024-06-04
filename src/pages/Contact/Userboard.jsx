@@ -6,28 +6,39 @@ import map from '../../assets/map.png'
 import Contact from './Contact'
 import {
   FacebookIcon,
+  InstagramIcon,
   LinkedInIcon,
   WhatsAppIcon,
   YoutubeIcon,
 } from '../../components/core/icons'
+import {
+  FaFacebook,
+  FaInstagram,
+  FaLinkedinIn,
+  FaWhatsapp,
+} from 'react-icons/fa'
 
 const Userboard = () => {
   const data = [
     {
-      icon: <WhatsAppIcon />,
-      data: '067890876578',
+      icon: <FaWhatsapp />,
+      name: 'WhatsApp',
+      link: '+919019905527',
     },
     {
-      icon: <FacebookIcon />,
-      data: 'JohnDoea',
+      icon: <FaFacebook />,
+      name: 'Facebook',
+      link: 'https://www.facebook.com/profile.php?id=61560006581477',
     },
     {
-      icon: <LinkedInIcon />,
-      data: 'john Doea',
+      icon: <FaLinkedinIn />,
+      name: 'LinkedIn',
+      link: 'https://www.linkedin.com/in/asca-firm-87bb7a310/',
     },
     {
-      icon: <YoutubeIcon />,
-      data: 'john doea',
+      icon: <FaInstagram />,
+      name: 'Instagram',
+      link: 'https://www.instagram.com/ascafirm/',
     },
   ]
 
@@ -83,7 +94,15 @@ const Userboard = () => {
               return (
                 <div key={i} className='flex flex-col gap-5 items-center'>
                   <div style={{ width: '1.5rem' }}>{cont.icon}</div>
-                  <div>{cont.data}</div>
+                  <div>
+                    <a
+                      href={cont.link}
+                      target='_blank'
+                      rel='noopener noreferrer'
+                    >
+                      {cont.name}
+                    </a>
+                  </div>
                 </div>
               )
             })}
