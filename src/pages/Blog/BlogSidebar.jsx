@@ -26,7 +26,7 @@ const BlogSidebar = ({ showingMobile, setShowingMobile }) => {
                 key={index}
                 className='cursor-pointer'
               >
-                <p className=' text-xl '>{topic.title}</p>
+                <p style={{ fontSize: '1rem' }}>{topic.title}</p>
               </Link>
             ))}
           </div>
@@ -41,7 +41,7 @@ const BlogSidebar = ({ showingMobile, setShowingMobile }) => {
               key={index}
               className='cursor-pointer'
             >
-              <p className=' text-xl '>{topic.title}</p>
+              <p style={{ fontSize: '1rem' }}>{topic.title}</p>
             </Link>
           ))}
         </div>

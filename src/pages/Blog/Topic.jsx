@@ -39,7 +39,7 @@ const Topic = () => {
               )}
             </div>
           )}
-          <p className=' text-xl '>{topic.title}</p>
+          <p className=' text-l '>{topic.title}</p>
         </div>
         <div
           className={`mt-2 transition-all duration-300 pl-10 pt-5 ${
@@ -52,7 +52,7 @@ const Topic = () => {
                 <li key={top.id}>
                   <Link
                     to={`/blogs/topic/${id}/sub/${topic.id}/blog/${top.id}`}
-                    className='text-white text-xl font-medium block'
+                    className='text-white text-l font-medium block'
                   >
                     {top.title}
                   </Link>
@@ -71,7 +71,7 @@ const Topic = () => {
 
   return (
     <div>
-      <p className='text-2xl text-center '>{topic?.title}</p>
+      <p className='text-l text-center '>{topic?.title}</p>
       <ul className='space-y-2 mt-10'>
         {' '}
         {topic.subTopics.map((topic) => (

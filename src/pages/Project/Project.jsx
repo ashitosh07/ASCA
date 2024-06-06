@@ -178,7 +178,7 @@ const Project = () => {
                           style={{ color: 'black', backgroundColor: 'white' }}
                         />
                       </div>
-                      <div className='form-group'>
+                      {/* <div className='form-group'>
                         <label htmlFor='resume'>
                           Please send your resume to
                         </label>
@@ -208,7 +208,7 @@ const Project = () => {
                           <option value='Internship'>Internship</option>
                           <option value='Staff'>Staff</option>
                         </select>
-                      </div>
+                      </div> */}
                       <div className='form-group'>
                         <label htmlFor='Description'>Description</label>
                         <textarea
@@ -223,7 +223,7 @@ const Project = () => {
                         ></textarea>
                       </div>
 
-                      <div className='form-group'>
+                      {/* <div className='form-group'>
                         <button
                           type='submit'
                           className='px-4 py-2  text-black rounded hover:bg-green-600 transition duration-300 '
@@ -231,7 +231,7 @@ const Project = () => {
                         >
                           Submit
                         </button>
-                      </div>
+                      </div> */}
                     </form>
                   </div>
                 </div>

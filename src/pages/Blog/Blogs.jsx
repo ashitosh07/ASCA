@@ -9,7 +9,7 @@ const Blogs = () => {
   const renderTopic = (topic) => {
     return (
       <div className='border px-4 py-2 rounded-md transition-all duration-300 h-full text-[#8dce19]'>
-        <div className=' flex  items-center gap-2'>
+        <div className=' flex items-center gap-2'>
           {topic.subTopics && (
             <div
               onClick={() =>
@@ -25,7 +25,7 @@ const Blogs = () => {
               )}
             </div>
           )}
-          <p className=' text-xl '>{topic.title}</p>
+          <p className=' text-l '>{topic.title}</p>
         </div>
         <div
           className={`mt-2 transition-all duration-300 pl-10 pt-5 ${
@@ -38,7 +38,7 @@ const Blogs = () => {
                 <li key={top.id}>
                   <Link
                     to={`/blogs/topic/${topic.blogTopicId}/sub/${topic.id}/blog/${top.id}`}
-                    className='text-white text-xl font-medium block'
+                    className='text-white text-l font-medium block'
                   >
                     {top.title}
                   </Link>
@@ -64,7 +64,7 @@ const Blogs = () => {
 
   return (
     <div>
-      <p className='text-2xl text-center '>All Articles</p>
+      <p className='text-1xl text-center '>All Articles</p>
       <ul className='space-y-2 mt-10'>
         {subTopics.map((topic) => (
           <div key={topic.id}>{renderTopic(topic)}</div>

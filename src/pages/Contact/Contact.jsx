@@ -119,7 +119,7 @@ const Contact = () => {
                   style={{ color: 'black', backgroundColor: 'white' }}
                 />
               </div>
-              <div className='form-group'>
+              {/* <div className='form-group'>
                 <label htmlFor='resume'>Please send your resume to</label>
                 <input
                   className='input-field'
@@ -142,7 +142,7 @@ const Contact = () => {
                   <option value='Internship'>Internship</option>
                   <option value='Staff'>Staff</option>
                 </select>
-              </div>
+              </div> */}
               <div className='form-group'>
                 <label htmlFor='Description'>Description</label>
                 <textarea
