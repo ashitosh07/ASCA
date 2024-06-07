@@ -223,7 +223,7 @@ const Project = () => {
                         ></textarea>
                       </div>
 
-                      {/* <div className='form-group'>
+                      <div className='form-group'>
                         <button
                           type='submit'
                           className='px-4 py-2  text-black rounded hover:bg-green-600 transition duration-300 '
@@ -231,7 +231,7 @@ const Project = () => {
                         >
                           Submit
                         </button>
-                      </div> */}
+                      </div>
                     </form>
                   </div>
                 </div>
