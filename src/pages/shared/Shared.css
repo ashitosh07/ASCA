@@ -16,6 +16,12 @@
     padding-left: 2%;
   }
 }
+.small-swal-popup {
+  width: 400px !important;
+  height: 200px !important;
+  padding: 10px !important;
+  font-size: 10px !important;
+}
 
 .visible {
   width: 100%;

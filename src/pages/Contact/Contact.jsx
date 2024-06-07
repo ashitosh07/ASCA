@@ -28,10 +28,11 @@ const Contact = () => {
     e.preventDefault()
     emailjs
       .sendForm(
-        'itsproali_portfolio',
-        'itsproali_portfolio',
+        'gmail',
+        'template_upd9mzn',
         form.current,
         'H-ispiDvwdbG_76iq'
+        // 'H-ispiDvwdbG_76iq'
       )
       .then(
         (result) => {
@@ -119,30 +120,7 @@ const Contact = () => {
                   style={{ color: 'black', backgroundColor: 'white' }}
                 />
               </div>
-              {/* <div className='form-group'>
-                <label htmlFor='resume'>Please send your resume to</label>
-                <input
-                  className='input-field'
-                  type='email'
-                  name='resume'
-                  id='resume'
-                  placeholder='example@example.com'
-                  required
-                  style={{ color: 'black', backgroundColor: 'white' }}
-                />
-              </div>
-              <div className='form-group'>
-                <label htmlFor='role'>Available Roles</label>
-                <select id='role' name='role' className='input-field' required>
-                  <option value=''>Select a role</option>
-                  <option value='Partner'>Partner</option>
-                  <option value='Manager'>Manager</option>
-                  <option value='Lawyer'>Lawyer</option>
-                  <option value='Articleship'>Articleship</option>
-                  <option value='Internship'>Internship</option>
-                  <option value='Staff'>Staff</option>
-                </select>
-              </div> */}
+
               <div className='form-group'>
                 <label htmlFor='Description'>Description</label>
                 <textarea

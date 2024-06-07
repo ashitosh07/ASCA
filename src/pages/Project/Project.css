@@ -12,6 +12,10 @@
   background: transparent;
   position: relative;
 }
+.small-swal-popup {
+  width: 300px !important;
+  padding: 20px !important;
+}
 
 .item img {
   opacity: 1;

@@ -1,10 +1,11 @@
 import React, { useRef, useState, useEffect } from 'react'
+import emailjs from 'emailjs-com'
 import { Link, useNavigate } from 'react-router-dom'
 import { FaDownload } from 'react-icons/fa'
 import { RiFolderInfoFill } from 'react-icons/ri'
 import TypeAnimation from 'react-type-animation'
 import { motion, useAnimation } from 'framer-motion'
-
+import Swal from 'sweetalert2'
 import '../shared/Shared.css'
 import myImage from '../../assets/client.png'
 import client1 from '../../assets/client1.png'
@@ -35,27 +36,36 @@ const Project = () => {
 
   const handleSend = (e) => {
     e.preventDefault()
+
     emailjs
-      .sendForm(
-        'itsproali_portfolio',
-        'itsproali_portfolio',
-        form.current,
-        'H-ispiDvwdbG_76iq'
-      )
+      .sendForm('gmail', 'template_upd9mzn', form.current, '_oE-UyMZh1i0VBa0t')
       .then(
         (result) => {
           console.log(result.text)
           Swal.fire({
             position: 'top-end',
             icon: 'success',
-            title: 'Your Message has been sent',
+            title: 'Your email has been sent',
             showConfirmButton: false,
             timer: 1500,
+            customClass: {
+              popup: 'small-swal-popup', // Custom class for smaller popup
+            },
           })
-          navigate('/')
+          navigate('/') // Redirect after success
         },
         (error) => {
           console.log(error.text)
+          Swal.fire({
+            position: 'top-end',
+            icon: 'error',
+            title: 'Something went wrong',
+            showConfirmButton: false,
+            timer: 1500,
+            customClass: {
+              popup: 'small-swal-popup', // Custom class for smaller popup
+            },
+          })
         }
       )
     e.target.reset()
@@ -178,37 +188,7 @@ const Project = () => {
                           style={{ color: 'black', backgroundColor: 'white' }}
                         />
                       </div>
-                      {/* <div className='form-group'>
-                        <label htmlFor='resume'>
-                          Please send your resume to
-                        </label>
-                        <input
-                          className='input-field'
-                          type='email'
-                          name='resume'
-                          id='resume'
-                          placeholder='example@example.com'
-                          required
-                          style={{ color: 'black', backgroundColor: 'white' }}
-                        />
-                      </div>
-                      <div className='form-group'>
-                        <label htmlFor='role'>Available Roles</label>
-                        <select
-                          id='role'
-                          name='role'
-                          className='input-field'
-                          required
-                        >
-                          <option value=''>Select a role</option>
-                          <option value='Partner'>Partner</option>
-                          <option value='Manager'>Manager</option>
-                          <option value='Lawyer'>Lawyer</option>
-                          <option value='Articleship'>Articleship</option>
-                          <option value='Internship'>Internship</option>
-                          <option value='Staff'>Staff</option>
-                        </select>
-                      </div> */}
+
                       <div className='form-group'>
                         <label htmlFor='Description'>Description</label>
                         <textarea
