@@ -135,7 +135,7 @@ export default function Navbar() {
                   open={isOpen}
                   onClose={toggleDrawer}
                   direction='right'
-                  style={{ backgroundColor: '#000000' }}
+                  style={{ backgroundColor: '#ffffff' }}
                   className='bla bla bla flex flex-col justify-between pb-4'
                 >
                   <ul className=''>
@@ -172,7 +172,7 @@ export default function Navbar() {
                         <NavLink
                           to={navItem.link}
                           style={activeLink}
-                          className='flex items-center text-white hover:text-[#8dce19] duration-300'
+                          className='flex items-center text-black hover:text-[#8dce19] duration-300'
                         >
                           <span className='mr-3'>{navItem.icon}</span>
                           <span>{navItem.title}</span>

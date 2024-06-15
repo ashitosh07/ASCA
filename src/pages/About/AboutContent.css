@@ -17,3 +17,8 @@
   flex-shrink: 0;
   margin-left: 221px;
 }
+@media (max-width: 640px) {
+  .page-index {
+    margin-left: 186px;
+  }
+}
