@@ -5,6 +5,7 @@ import '../../components/PrimaryBtn.css'
 import '../shared/Shared.css'
 import badges from './badges'
 import Aboutme from '../../assets/Aboutme.png'
+import img from '../../assets/headerLogo.png'
 const h1Styles = {
   color: 'black',
   // fontWeight: 'bold',
@@ -28,7 +29,14 @@ const About = () => {
     >
       <div className='flex justify-center items-center p-4'>
         <div className='grid grid-cols-1 md:grid-cols-1 gap-6'>
-          <p style={{ ...h1Styles, ...mediaQueryStyles }}>ABOUT ASCA</p>
+          <p style={{ ...h1Styles, ...mediaQueryStyles }}>
+            <img
+              src={img}
+              alt='AS CA'
+              className='w-24 m-4 mt-8'
+              style={{ margin: '0 auto' }}
+            />
+          </p>
           <div className='centered-container'>
             <br />
             <p className='text-black '>

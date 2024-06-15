@@ -44,6 +44,7 @@ export default function Navbar() {
   const activeLink = ({ isActive }) => {
     return {
       fontWeight: 500,
+      fontSize: '16px',
       color: isActive && '#8dce19',
     }
   }
@@ -77,7 +78,10 @@ export default function Navbar() {
           className={`visible ${show && 'nav-hidden'} shadow-lg bg-[#000000] 
      z-50 bg-white`}
         >
-          <div className='w-full flex items-center justify-between px-3 md:px-24 py-3' style={{paddingLeft: "9.5rem"}}>
+          <div
+            className='w-full flex items-center justify-between px-3 md:px-24 py-3'
+            style={{ paddingLeft: '9.5rem' }}
+          >
             <div>
               <Link to='/'>
                 <img src={img} alt='AS CA' className='w-24 m-4 mt-8' />
