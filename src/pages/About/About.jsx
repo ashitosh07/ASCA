@@ -26,7 +26,7 @@ const About = () => {
       className='parent pt-6 my-16'
       style={{ backgroundColor: 'white', borderRadius: '40px' }}
     >
-      <div className='flex justify-center items-center p-6'>
+      <div className='flex justify-center items-center p-4'>
         <div className='grid grid-cols-1 md:grid-cols-1 gap-6'>
           <p style={{ ...h1Styles, ...mediaQueryStyles }}>ABOUT ASCA</p>
           <div className='centered-container'>

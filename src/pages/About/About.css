@@ -17,7 +17,7 @@
 
 .centered-container {
   text-align: center;
-  max-width: 900px; /* Adjust the max-width based on your design */
+  max-width: 1024px; /* Adjust the max-width based on your design */
   margin: 0 auto;
 }
 

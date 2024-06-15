@@ -1,0 +1,19 @@
+.page-name {
+  flex-grow: 1;
+  margin-right: 26px;
+  position: relative;
+}
+
+.page-name::after {
+  content: '......................................................';
+  position: absolute;
+  left: 113%;
+  transform: translateX(-10px);
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.page-index {
+  flex-shrink: 0;
+  margin-left: 221px;
+}

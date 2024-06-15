@@ -14,12 +14,18 @@ const TeamMemberCard = ({ image, name, role, body }) => {
   return (
     <div className='p-4 shadow-md rounded-lg'>
       <div onClick={openModal} className='cursor-pointer'>
-        <div className='overflow-hidden rounded-lg'>
-          <img src={image} alt={name} className='w-full h-auto object-cover' />
+        <div className='overflow-hidden rounded-lg bg-gray-200 p-2'>
+          <div className='overflow-hidden rounded-lg h-64 w-full'>
+            <img
+              src={image}
+              alt={name}
+              className='w-full h-full object-cover'
+            />
+          </div>
         </div>
         <div className='mt-4'>
-          <h3 className='text-lg '>{name}</h3>
-          <p className='text-sm text-white-600'>{role}</p>
+          <h3 className='text-lg'>{name}</h3>
+          <p className='text-sm text-gray-600'>{role}</p>
         </div>
       </div>
 

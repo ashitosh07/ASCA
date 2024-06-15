@@ -38,7 +38,7 @@ const Footer = () => {
                 <img
                   src={img}
                   alt='AS CA'
-                  style={{ width: '100%', margin: '20px 0' }}
+                  style={{ width: '100%', margin: '0px 0' }}
                 />
               </div>
               <p

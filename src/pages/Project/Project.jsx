@@ -107,13 +107,21 @@ const Project = () => {
                     marginBottom: '10px',
                   }}
                 >
-                  Support
+                  Reach out to us
                 </button>
                 {/* <h2 className='text-4xl  mb-4 text-black'>We are hiring</h2> */}
                 <p className='text-gray-600 mb-8'>
-                  "If there’s something you would require any assistance with,
-                  you may drop your enquiries to" – ascafirm@gmail.com
+                  If there’s something you would require any assistance with,
+                  you may drop your enquiries to –
+                  <a
+                    href='https://mail.google.com/mail/?view=cm&fs=1&to=ascafirm@gmail.com'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    ascafirm@gmail.com
+                  </a>
                 </p>
+
                 <div
                   className=''
                   ref={ref}

@@ -71,13 +71,13 @@ export default function Navbar() {
 
   return (
     <>
-      <div className='bg-black'>
+      <div className='bg-white'>
         {/* <div className='max-w-7xl mx-auto lg:px-4'> */}
         <div
           className={`visible ${show && 'nav-hidden'} shadow-lg bg-[#000000] 
-     z-50`}
+     z-50 bg-white`}
         >
-          <div className='w-full flex items-center justify-between px-3 md:px-24 py-3'>
+          <div className='w-full flex items-center justify-between px-3 md:px-24 py-3' style={{paddingLeft: "9.5rem"}}>
             <div>
               <Link to='/'>
                 <img src={img} alt='AS CA' className='w-24 m-4 mt-8' />
@@ -90,7 +90,7 @@ export default function Navbar() {
                     <NavLink
                       to={navItem.link}
                       style={activeLink}
-                      className='text-white hover:text-#8dce19 duration-300'
+                      className='text-black hover:text-#8dce19 duration-300'
                     >
                       {navItem.title}
                     </NavLink>

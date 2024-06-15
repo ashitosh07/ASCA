@@ -75,7 +75,7 @@ const TeamMember = () => {
           />
         ))}
       </div>{' '}
-      <section className='py-4 px-10 pt-10'>
+      <section className='py-4 px-4 pt-10'>
         <div className='container mx-auto flex flex-col-reverse lg:flex-row items-center'>
           <div className='lg:w-1/2 text-center lg:text-left'>
             <button
