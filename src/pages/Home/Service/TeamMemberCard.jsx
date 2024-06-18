@@ -70,7 +70,8 @@ const TeamMemberCard = ({ image, name, role, body }) => {
               <div className='text-base text-white-800'>{body}</div>
               <button
                 onClick={closeModal}
-                className='mt-4 px-2 py-1 bg-[#8dce19]  text-black rounded-lg flex items-center justify-center'
+                className='mt-4 px-2 py-0.2 bg-[#8dce19]  text-black rounded-lg flex items-center justify-center'
+                style={{ fontSize: '14px' }}
               >
                 Close
                 <svg
@@ -78,7 +79,7 @@ const TeamMemberCard = ({ image, name, role, body }) => {
                   fill='none'
                   viewBox='0 0 24 24'
                   stroke='currentColor'
-                  className='w-5 h-5 ml-2'
+                  className='w-4 h-5 ml-2'
                 >
                   <path
                     strokeLinecap='round'

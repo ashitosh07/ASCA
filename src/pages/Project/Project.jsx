@@ -118,7 +118,7 @@ const Project = () => {
                     target='_blank'
                     rel='noopener noreferrer'
                   >
-                    ascafirm@gmail.com
+                    <b>ascafirm@gmail.com</b>
                   </a>
                 </p>
 

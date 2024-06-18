@@ -80,11 +80,11 @@ export default function Navbar() {
         >
           <div
             className='w-full flex items-center justify-between px-3 md:px-24 py-3'
-            style={{ paddingLeft: '9.5rem' }}
+            // style={{ marginLeft: '3.5rem' }}
           >
             <div>
               <Link to='/'>
-                <img src={img} alt='AS CA' className='w-24 m-4 mt-8' />
+                <img src={img} alt='AS CA' className='w-24 m-4 mt-8 ml-16' />
               </Link>
             </div>
             <div>
@@ -184,8 +184,8 @@ export default function Navbar() {
               </div>
             </div>
           </div>
+          {/* </div> */}
         </div>
-        {/* </div> */}
       </div>
     </>
   )

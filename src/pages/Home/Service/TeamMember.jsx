@@ -77,25 +77,21 @@ const TeamMember = () => {
       </div>{' '}
       <section className='py-4 px-4 pt-10'>
         <div className='container mx-auto flex flex-col-reverse lg:flex-row items-center'>
-          <div className='lg:w-1/2 text-center lg:text-left'>
+          <div className='text-center lg:text-left'>
             <button
               className='bg-green-500 hover:bg-blue-700 text-white py-1 px-2 rounded'
               style={{
                 backgroundColor: '#8dce19',
-                // fontWeight: '700',
                 marginBottom: '10px',
               }}
             >
               One-Stop Solution
             </button>
-            <h2 className='text-4xl  mb-4'> Our Expertise</h2>
+            <h3 className='text-4xl mb-4'> Our Expertise</h3>
             <p className='text-white-600 mb-8'>
               We offer a comprehensive suite of services to empower your
               financial success.
             </p>
-          </div>
-          <div className='md:w-1/2 flex justify-end'>
-            {/* <img src={hiring} alt='Company logo' className='max-w-md' /> */}
           </div>
         </div>
       </section>
