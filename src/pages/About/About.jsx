@@ -11,7 +11,7 @@ const containerStyles = {
   alignItems: 'center',
   justifyContent: 'center',
   textAlign: 'center',
-  fontFamily:"intent",
+  fontFamily: 'lexend',
   color: 'black',
   fontSize: '1.5em', // example style for the text
 }
