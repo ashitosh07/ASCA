@@ -84,7 +84,7 @@ export default function Navbar() {
           >
             <div>
               <Link to='/'>
-                <img src={img} alt='AS CA' className='w-24 m-4 mt-8 ml-16' />
+                <img src={img} alt='ASCA' className='w-24 m-4 mt-8 ml-16' />
               </Link>
             </div>
             <div>

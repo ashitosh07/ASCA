@@ -37,7 +37,7 @@ const Footer = () => {
               <div className='w-20 mx-auto md:mx-0'>
                 <img
                   src={img}
-                  alt='AS CA'
+                  alt='AS CAASCA'
                   style={{ width: '100%', margin: '0px 0 10px 0' }}
                 />
               </div>
@@ -145,7 +145,7 @@ const Footer = () => {
 
           <div className='flex flex-col md:flex-row items-center justify-center mt-4'>
             <p style={{ fontSize: '14px' }}>
-              &copy; {year.getFullYear()} , AS CA. All Rights Reserved.
+              &copy; {year.getFullYear()} ,ASCA. All Rights Reserved.
             </p>
           </div>
         </footer>

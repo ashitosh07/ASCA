@@ -39,7 +39,7 @@ const About = () => {
         <div className='grid grid-cols-1 md:grid-cols-1 gap-6'>
           <div style={containerStyles}>
             <span>ABOUT</span>
-            <img src={img} alt='AS CA' style={imgStyles} />
+            <img src={img} alt='ASCA' style={imgStyles} />
           </div>
           <div className='centered-container'>
             <br />
