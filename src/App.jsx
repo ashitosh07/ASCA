@@ -12,6 +12,7 @@ import BlogLayout from './pages/Blog/BlogLayout'
 import Topic from './pages/Blog/Topic'
 import Blog from './pages/Blog/Blog'
 import Services from './pages/services/Services'
+import FloatingButtons from './components/core/FloatingButtons'
 
 const Home = React.lazy(() => import('./pages/Home/Home'))
 const Project = React.lazy(() => import('./pages/Project/Project'))
@@ -22,16 +23,12 @@ function App() {
   return (
     <>
       <ScrollToTop />
-      {/* <div className='max-w-7xl mx-auto lg:px-4 bg-white:'> */}
-        {isFalse || <Navbar />}
-      {/* </div> */}
+      {isFalse || <Navbar />}
       <Suspense fallback={<Loader />}>
         <Routes>
           <Route path='/' element={<Home />} />
-
           <Route path='/about' element={<Achievement />} />
           <Route path='/project' element={<Project />} />
-
           <Route path='/contact' element={<Userboard />} />
           <Route path='/blogs' element={<BlogLayout />}>
             <Route path='/blogs' element={<Blogs />} />
@@ -47,6 +44,7 @@ function App() {
         </Routes>
       </Suspense>
       {isFalse || <Footer />}
+      <FloatingButtons />
     </>
   )
 }

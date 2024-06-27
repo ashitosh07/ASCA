@@ -69,32 +69,32 @@ const Footer = () => {
             </div>
 
             <div className='w-full md:w-1/3 flex flex-col items-center mb-6'>
-              <a
-                className='text-white hover:text-#8dce19 duration-300 mb-2'
-                href='#'
-              >
-                About
-              </a>
-              <a
-                className='text-white hover:text-#8dce19 duration-300 mb-2'
-                href='#'
-              >
-                Services
-              </a>
-              <a
-                className='text-white hover:text-#8dce19 duration-300 mb-2'
-                href='#'
-              >
-                Contact
-              </a>
-              <a
-                href='#'
-                className='text-white duration-300'
-                onmouseover="this.style.color='#8dce19';"
-                onmouseout="this.style.color='white';"
-              >
-                Careers
-              </a>
+              <div className='text-left'>
+                <a
+                  className='text-white hover:text-[#8dce19] duration-300 mb-2 block'
+                  href='#'
+                >
+                  About
+                </a>
+                <a
+                  className='text-white hover:text-[#8dce19] duration-300 mb-2 block'
+                  href='#'
+                >
+                  Services
+                </a>
+                <a
+                  className='text-white hover:text-[#8dce19] duration-300 mb-2 block'
+                  href='#'
+                >
+                  Contact
+                </a>
+                <a
+                  href='#'
+                  className='text-white hover:text-[#8dce19] duration-300 block'
+                >
+                  Careers
+                </a>
+              </div>
             </div>
 
             <div className='w-full md:w-1/3 flex flex-col items-center'>
@@ -108,7 +108,7 @@ const Footer = () => {
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  <FaLinkedin className='text-2xl text-blue-400' />
+                  <FaLinkedin className='text-2xl text-black-400' />
                 </a>
                 <a
                   className='inline-block mx-2'
@@ -116,7 +116,7 @@ const Footer = () => {
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  <FaInstagram className='text-2xl text-pink-500' />
+                  <FaInstagram className='text-2xl text-black-500' />
                 </a>
                 <a
                   className='inline-block mx-2'
@@ -124,7 +124,7 @@ const Footer = () => {
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  <FaFacebook className='text-2xl text-blue-600' />
+                  <FaFacebook className='text-2xl text-black-600' />
                 </a>
                 <a
                   className='inline-block mx-2'
@@ -132,7 +132,7 @@ const Footer = () => {
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  <FaYoutube className='text-2xl text-red-600' />
+                  <FaYoutube className='text-2xl text-black-600' />
                 </a>
               </div>
             </div>

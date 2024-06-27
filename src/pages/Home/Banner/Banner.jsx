@@ -14,24 +14,14 @@ const Banner = () => {
           style={{
             fontSize: '52px',
             '@media (max-width: 640px)': {
-              lineHeight: '3.5rem',
+              lineHeight: '4.5rem',
               fontSize: '46px',
             },
           }}
         >
-          Service beyond
+          Service beyond <br /> numbers:
         </h1>
-        <h1
-          className='text-4xl mb-0'
-          style={{
-            fontSize: '52px',
-            '@media (max-width: 640px)': {
-              fontSize: '46px',
-            },
-          }}
-        >
-          numbers:
-        </h1>
+
         <br />
         {/* <h1
           className='text-4xl  mb-0'
