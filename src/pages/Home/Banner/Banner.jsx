@@ -13,14 +13,22 @@ const Banner = () => {
           className='text-4xl mb-0'
           style={{
             fontSize: '52px',
-            '@media (max-width: 640px)': {
-              lineHeight: '4.5rem',
-              fontSize: '46px',
-            },
+            wordSpacing: '0.4rem', // Adjust the word spacing as needed
           }}
         >
-          Service beyond <br /> numbers:
+          Service beyond <br />
+          <span className='mt-2 inline-block'>numbers:</span>
         </h1>
+
+        <style jsx>{`
+          @media (max-width: 640px) {
+            h1 {
+              line-height: 4.5rem;
+              font-size: 46px;
+              word-spacing: 0.4rem; // Adjust the word spacing for small screens if needed
+            }
+          }
+        `}</style>
 
         <br />
         {/* <h1

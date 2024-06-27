@@ -59,7 +59,8 @@ const Footer = () => {
                 className='text-left mt-2'
                 style={{ color: '#B3B3B3', fontSize: '16px' }}
               >
-                ASCA, 2-7-432/4, Kottara Cross Bejai,Mangalore,Karnatak - 575004
+                ASCA, 2-7-432/4, Kottara Cross Bejai,Mangalore,Karnataka -
+                575004
               </p>
               <p
                 className='text-left mt-2'
