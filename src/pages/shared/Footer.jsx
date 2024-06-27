@@ -45,8 +45,9 @@ const Footer = () => {
                 className='text-left'
                 style={{ color: '#B3B3B3', fontSize: '16px' }}
               >
-                362, #rd Floor, 7th Cross Rd, 6th Block, 1st Block, Jayanagar
-                1st Block,Jayanagar,Bangalore-560011
+                Bangalore Office 362, 3rd Floor, 7th Cross Rd, 6th Block, 1st
+                Block, Jayanagar 1st Block, Jayanagar, Bengaluru, Karnataka -
+                560011
               </p>{' '}
               <p
                 className='text-left mt-2'
