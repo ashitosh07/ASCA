@@ -47,32 +47,6 @@ const Home = () => {
           {/* <BlogIndex /> */}
           <Project />
           {/* <Contact /> */}
-
-          {isButtonVisible && (
-            <div>
-              <button
-                className='fixed bottom-4 right-16 bg-green-500 text-white p-3 rounded-full shadow-md md:bottom-8 md:right-16'
-                onClick={handleButtonClick}
-              >
-                <IoChatboxEllipses className='text-2xl' />
-              </button>
-
-              {helpMessageVisible && (
-                <div
-                  ref={helpMessageRef}
-                  className='fixed bottom-16 right-4 md:bottom-24 md:right-8 bg-white text-gray-700 p-3 rounded-md shadow-md'
-                >
-                  <a
-                    href='https://wa.me/919019905527'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                  >
-                    <p>WhatsApp</p>
-                  </a>
-                </div>
-              )}
-            </div>
-          )}
         </div>
       </div>
     </div>

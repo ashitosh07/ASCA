@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
-import anwesh from '../../../assets/anwesh.png'
-import frenil from '../../../assets/frenil.png'
-import viresh from '../../../assets/viresh.png'
-import adril from '../../../assets/adril.png'
+import anwesh from '../../../assets/anwesh.jpg'
+import frenil from '../../../assets/frenil.jpg'
+import viresh from '../../../assets/viresh.jpg'
+import adril from '../../../assets/adril.jpg'
 import hiring from '../../../assets/hiring.png'
 import {
   headingAnimation,

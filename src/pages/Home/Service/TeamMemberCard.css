@@ -70,3 +70,8 @@
     /* object-fit: cover; */
   }
 }
+/* Add this to your CSS file */
+.frame {
+  border: 4px solid #d1d5db; /* Tailwind CSS's gray-300 color */
+  border-radius: 0.5rem; /* To match the rounded-lg class */
+}

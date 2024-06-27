@@ -144,47 +144,6 @@ const Test = () => {
               />
               <h2 className='text-2xl mb-1'>{member.name}</h2>
               <p className='text-neutral mb-2'>{member.designation}</p>
-              {/* <div
-                style={{
-                  display: 'flex',
-                  flexDirection: 'row',
-                  justifyContent: 'center',
-                  alignItems: 'center',
-                }}
-              >
-                <div style={{ margin: '0 6px' }}>
-                  <a
-                    className='mb-2'
-                    href={member.linkedin}
-                    target='_blank'
-                    rel='noopener noreferrer'
-                  >
-                    <FaLinkedin className='text-2xl text-blue-400' />
-                  </a>
-                </div>
-
-                <div style={{ margin: '0 6px' }}>
-                  <a
-                    className='mb-2'
-                    href={member.instagram}
-                    target='_blank'
-                    rel='noopener noreferrer'
-                  >
-                    <FaInstagram className='text-2xl text-pink-500' />
-                  </a>
-                </div>
-
-                <div style={{ margin: '0 6px' }}>
-                  <a
-                    className='mb-2'
-                    href={member.facebook}
-                    target='_blank'
-                    rel='noopener noreferrer'
-                  >
-                    <FaFacebook className='text-2xl text-blue-600' />
-                  </a>
-                </div>
-              </div> */}
             </div>
           ))}
         </div>

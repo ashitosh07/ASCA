@@ -41,14 +41,20 @@ const Footer = () => {
                   style={{ width: '100%', margin: '0px 0 10px 0' }}
                 />
               </div>
+              <h1>Bangalore Office </h1>
               <p
                 className='text-left'
-                style={{ color: '#B3B3B3', fontSize: '16px' }}
+                style={{
+                  color: '#B3B3B3',
+                  fontSize: '16px',
+                  margin: '0px 0 10px 0',
+                }}
               >
                 Bangalore Office 362, 3rd Floor, 7th Cross Rd, 6th Block, 1st
                 Block, Jayanagar 1st Block, Jayanagar, Bengaluru, Karnataka -
                 560011
               </p>{' '}
+              <h1>Mangalore Office </h1>
               <p
                 className='text-left mt-2'
                 style={{ color: '#B3B3B3', fontSize: '16px' }}
@@ -105,7 +111,7 @@ const Footer = () => {
               <div className='flex items-center justify-center'>
                 <a
                   className='inline-block mx-2'
-                  href='#'
+                  href='https://www.linkedin.com/in/asca-firm-87bb7a310/'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
@@ -113,7 +119,7 @@ const Footer = () => {
                 </a>
                 <a
                   className='inline-block mx-2'
-                  href='#'
+                  href='https://www.instagram.com/ascafirm/#'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
@@ -121,7 +127,7 @@ const Footer = () => {
                 </a>
                 <a
                   className='inline-block mx-2'
-                  href='#'
+                  href='https://www.facebook.com/profile.php?id=61560006581477'
                   target='_blank'
                   rel='noopener noreferrer'
                 >

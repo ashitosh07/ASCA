@@ -44,7 +44,7 @@ export default function Navbar() {
   const activeLink = ({ isActive }) => {
     return {
       fontWeight: 500,
-      fontSize: '16px',
+      fontSize: '18px',
       color: isActive && '#8dce19',
     }
   }
@@ -81,24 +81,25 @@ export default function Navbar() {
             <div className='w-full flex items-center justify-between px-3 md:px-24 py-3'>
               <div className='flex-shrink-0'>
                 <Link to='/'>
-                  <img src={img} alt='ASCA' className='w-24 m-4 mt-8 ml-16' />
+                  <img src={img} alt='ASCA' className='w-26 m-4 mt-4 ml-40' />
                 </Link>
               </div>
               <div className='flex-grow'>
                 <ul className='lg:flex items-center hidden justify-end'>
                   {navLinks.map((navItem) => (
-                    <li className='mx-4' key={navItem.title}>
+                    <li className='mx-4 ' key={navItem.title}>
                       <NavLink
                         to={navItem.link}
                         style={activeLink}
                         className='text-black hover:text-[#8dce19] duration-300'
+                        // style={{ fontSize: '15px' }}
                       >
                         {navItem.title}
                       </NavLink>
                     </li>
                   ))}
                   <li className='mx-2'>
-                    <img src={CA} alt='CA' style={{ width: '200px' }} />
+                    <img src={CA} alt='CA' style={{ width: '230px' }} />
                   </li>
                 </ul>
                 <div className='block lg:hidden'>
