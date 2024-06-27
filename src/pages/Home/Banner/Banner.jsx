@@ -23,7 +23,7 @@ const Banner = () => {
         <style jsx>{`
           @media (max-width: 640px) {
             h1 {
-              line-height: 4.5rem;
+              line-height: 5.5rem;
               font-size: 46px;
               word-spacing: 0.4rem; // Adjust the word spacing for small screens if needed
             }
