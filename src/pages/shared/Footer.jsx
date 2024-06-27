@@ -152,7 +152,7 @@ const Footer = () => {
 
           <div className='flex flex-col md:flex-row items-center justify-center mt-4'>
             <p style={{ fontSize: '14px' }}>
-              &copy; {year.getFullYear()} ,ASCA. All Rights Reserved.
+              &copy; {year.getFullYear()} , ASCA. All Rights Reserved.
             </p>
           </div>
         </footer>
