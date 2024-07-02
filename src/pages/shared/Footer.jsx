@@ -50,9 +50,8 @@ const Footer = () => {
                   margin: '0px 0 10px 0',
                 }}
               >
-                Bangalore Office 362, 3rd Floor, 7th Cross Rd, 6th Block, 1st
-                Block, Jayanagar 1st Block, Jayanagar, Bengaluru, Karnataka -
-                560011
+                362, Shanthinilaya, 3rd Floor, 7th Cross Rd, 1st Block
+                Jayanagar, Bangalore, Karnataka - 560011
               </p>{' '}
               <h1>Mangalore Office </h1>
               <p

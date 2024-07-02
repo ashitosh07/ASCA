@@ -65,7 +65,7 @@ const Userboard = () => {
             </div>
             <div className='map-container p-2 lg:p-10 w-full lg:w-1/2'>
               <iframe
-                src='https://www.google.com/maps/embed?pb=!1m20!1m8!1m3!1d243.03374724502888!2d77.5854724!3d12.9372628!3m2!1i1024!2i768!4f13.1!4m9!3e9!4m3!3m2!1d12.890931199999999!2d74.84866559999999!4m3!3m2!1d12.937342099999999!2d77.58556589999999!5e0!3m2!1sen!2sin!4v1719558465299!5m2!1sen!2sin'
+                src='https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3888.539023817169!2d77.58294297507585!3d12.937322587374933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTLCsDU2JzE0LjQiTiA3N8KwMzUnMDcuOSJF!5e0!3m2!1sen!2sin!4v1719927757781!5m2!1sen!2sin'
                 width='100%'
                 height='350'
                 allowFullScreen=''
